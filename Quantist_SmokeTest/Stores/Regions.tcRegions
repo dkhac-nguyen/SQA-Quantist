@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="CollapsedTree" key="{6C828221-EE23-4C22-AB7C-B851910212BF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CollapsedTree" ID="{6C828221-EE23-4C22-AB7C-B851910212BF}" FileName="Regions\CollapsedTree.png" Update="False" />
+		</child>
+		<child name="zdataGrid1" key="{FA10B525-03B5-4196-A597-399D60A3D618}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="zdataGrid1" ID="{FA10B525-03B5-4196-A597-399D60A3D618}" FileName="Regions\zdataGrid1.png" Update="False" />
+		</child>
+		<child name="zdataGrid11" key="{3CCE5204-B35D-4579-81FC-5E507B0F0499}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="zdataGrid11" ID="{3CCE5204-B35D-4579-81FC-5E507B0F0499}" FileName="Regions\zdataGrid11.png" Update="False" />
+		</child>
+		<child name="SingleView_CVP2" key="{A0E820EA-A63A-45A0-8300-4A2A111F75BF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="SingleView_CVP2" ID="{A0E820EA-A63A-45A0-8300-4A2A111F75BF}" FileName="Regions\SingleView_CVP2.png" Update="False" />
+		</child>
+		<child name="SingleView" key="{C41808CA-A46E-4D83-ABEE-C2DC614D6063}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="SingleView" ID="{C41808CA-A46E-4D83-ABEE-C2DC614D6063}" FileName="Regions\SingleView.png" Update="False" />
+		</child>
+		<child name="SampleTypeLayout" key="{10143539-721F-455E-9B48-3B07D035B4A8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="SampleTypeLayout" ID="{10143539-721F-455E-9B48-3B07D035B4A8}" FileName="Regions\SampleTypeLayout.png" Update="False" />
+		</child>
+		<child name="CurveDataGridView_B7_H1" key="{FB7FAACA-EA14-4C22-930E-DBAEB5AB996E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveDataGridView_B7_H1" ID="{FB7FAACA-EA14-4C22-930E-DBAEB5AB996E}" FileName="Regions\CurveDataGridView_B7_H1.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1OverYsq_90_110_RemoveOutliers" key="{21070E63-D79E-41E3-AD7E-CDF105F064B2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1OverYsq_90_110_RemoveOutliers" ID="{21070E63-D79E-41E3-AD7E-CDF105F064B2}" FileName="Regions\CurveData_B7_H1_5PL_1OverYsq_90_110_RemoveOutliers.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverYsq_80_120_Reset_Include_Std" key="{5730FAA8-C92F-4B2A-9A19-4FC0C5540B61}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverYsq_80_120_Reset_Include_Std" ID="{5730FAA8-C92F-4B2A-9A19-4FC0C5540B61}" FileName="Regions\B7_H1_5PL_1OverYsq_80_120_Reset_Include_Std.png" Update="False" />
+		</child>
+		<child name="A1_B12_Standard" key="{8881C1A9-C72D-4901-9309-21F5DEA3AE64}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="A1_B12_Standard" ID="{8881C1A9-C72D-4901-9309-21F5DEA3AE64}" FileName="Regions\A1_B12_Standard.png" Update="False" />
+		</child>
+		<child name="C1_C11_Unknown" key="{050CF804-6138-4866-A051-DEE730D41BCF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="C1_C11_Unknown" ID="{050CF804-6138-4866-A051-DEE730D41BCF}" FileName="Regions\C1_C11_Unknown.png" Update="False" />
+		</child>
+		<child name="D1_E6_Backg_F7_H12_Control" key="{AD2B0D5D-59A5-4382-9E61-D0873D3FE074}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="D1_E6_Backg_F7_H12_Control" ID="{AD2B0D5D-59A5-4382-9E61-D0873D3FE074}" FileName="Regions\D1_E6_Backg_F7_H12_Control.png" Update="False" />
+		</child>
+		<child name="Selected_All_Wells" key="{33897638-BD54-4F68-9A4D-9CB6E3317F87}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Selected_All_Wells" ID="{33897638-BD54-4F68-9A4D-9CB6E3317F87}" FileName="Regions\Selected_All_Wells.png" Update="False" />
+		</child>
+		<child name="All_Wells_Cleared" key="{13C1126A-0E3F-430C-923E-FB113C111AB6}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="All_Wells_Cleared" ID="{13C1126A-0E3F-430C-923E-FB113C111AB6}" FileName="Regions\All_Wells_Cleared.png" Update="False" />
+		</child>
+		<child name="Plate_Wells_Selected_01" key="{3E53199D-7707-45C3-B019-4BD860C93578}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Plate_Wells_Selected_01" ID="{3E53199D-7707-45C3-B019-4BD860C93578}" FileName="Regions\Plate_Wells_Selected_01.png" Update="False" />
+		</child>
+		<child name="Wells_Selected_02" key="{C2D5B5F1-8272-4C61-B59F-EB3538155CF1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Wells_Selected_02" ID="{C2D5B5F1-8272-4C61-B59F-EB3538155CF1}" FileName="Regions\Wells_Selected_02.png" Update="False" />
+		</child>
+		<child name="Wells_Cleared_03" key="{AC305808-F8FA-4B8A-A6F7-DD89B07B4E11}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Wells_Cleared_03" ID="{AC305808-F8FA-4B8A-A6F7-DD89B07B4E11}" FileName="Regions\Wells_Cleared_03.png" Update="False" />
+		</child>
+		<child name="Wells_A_B_Selected_Standard" key="{EA7C7333-54CC-4E79-A48A-5EF1C29DE82D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Wells_A_B_Selected_Standard" ID="{EA7C7333-54CC-4E79-A48A-5EF1C29DE82D}" FileName="Regions\Wells_A_B_Selected_Standard.png" Update="False" />
+		</child>
+		<child name="zchart" key="{472C11B3-F3D0-4C3D-AADA-C22F9C7B3609}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="zchart" ID="{472C11B3-F3D0-4C3D-AADA-C22F9C7B3609}" FileName="Regions\zchart.png" Update="False" />
+		</child>
+		<child name="RunTreeView_Expand" key="{1F98B931-A408-440E-BD3C-03C9D0AD8A49}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="RunTreeView_Expand" ID="{1F98B931-A408-440E-BD3C-03C9D0AD8A49}" FileName="Regions\RunTreeView_Expand.png" Update="False" />
+		</child>
+		<child name="RunTreeView_Collapse" key="{CF538C0E-C75E-40E9-9776-3D927C6EA6AE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="RunTreeView_Collapse" ID="{CF538C0E-C75E-40E9-9776-3D927C6EA6AE}" FileName="Regions\RunTreeView_Collapse.png" Update="False" />
+		</child>
+		<child name="Horizontal_ShareView" key="{ED7FA3DA-7A2A-41B9-9E3F-E643243BC666}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Horizontal_ShareView" ID="{ED7FA3DA-7A2A-41B9-9E3F-E643243BC666}" FileName="Regions\Horizontal_ShareView.png" Update="False" />
+		</child>
+		<child name="Vertical_ShareView" key="{5E6CA680-3006-493E-9C52-4EB7E0B2A3EA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Vertical_ShareView" ID="{5E6CA680-3006-493E-9C52-4EB7E0B2A3EA}" FileName="Regions\Vertical_ShareView.png" Update="False" />
+		</child>
+		<child name="PM8800_Tree" key="{038FAD95-0651-422C-8FDE-C63A4C8B9BFA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="PM8800_Tree" ID="{038FAD95-0651-422C-8FDE-C63A4C8B9BFA}" FileName="Regions\PM8800_Tree.png" Update="False" />
+		</child>
+		<child name="PM8800_Chart" key="{01C6C1FC-3A9D-49C8-9EAF-F4E4C4B4A666}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="PM8800_Chart" ID="{01C6C1FC-3A9D-49C8-9EAF-F4E4C4B4A666}" FileName="Regions\PM8800_Chart.png" Update="False" />
+		</child>
+		<child name="PM8800_Options" key="{4A31B29B-4CFC-4DF7-925D-A843C4322489}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="PM8800_Options" ID="{4A31B29B-4CFC-4DF7-925D-A843C4322489}" FileName="Regions\PM8800_Options.png" Update="False" />
+		</child>
+		<child name="PM8800_ListControl" key="{DCF26BB8-00CD-4638-806C-C123DD1BA19C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="PM8800_ListControl" ID="{DCF26BB8-00CD-4638-806C-C123DD1BA19C}" FileName="Regions\PM8800_ListControl.png" Update="False" />
+		</child>
+		<child name="Header_Use" key="{5A1C0F20-E8C1-43F5-AE47-43B3D2918280}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Use" ID="{5A1C0F20-E8C1-43F5-AE47-43B3D2918280}" FileName="Regions\Header_Use.png" Update="False" />
+		</child>
+		<child name="Header_Sample" key="{441DD930-FA58-4DB3-ABA0-270F60F2CB38}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Sample" ID="{441DD930-FA58-4DB3-ABA0-270F60F2CB38}" FileName="Regions\Sample_Header.png" Update="False" />
+		</child>
+		<child name="Header_MFI" key="{E750F16C-8882-4314-B18F-1BFA97E66E76}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_MFI" ID="{E750F16C-8882-4314-B18F-1BFA97E66E76}" FileName="Regions\Header_MFI.png" Update="False" />
+		</child>
+		<child name="Header_MFI_CV" key="{5285154D-6F1C-4D48-8881-1746C4414B80}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_MFI_CV" ID="{5285154D-6F1C-4D48-8881-1746C4414B80}" FileName="Regions\Header_MFI_CV.png" Update="False" />
+		</child>
+		<child name="Header_Net_MFI" key="{7C35444D-C6A0-4D51-A961-2DB405AA8C5C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Net_MFI" ID="{7C35444D-C6A0-4D51-A961-2DB405AA8C5C}" FileName="Regions\Header_Net_MFI.png" Update="False" />
+		</child>
+		<child name="Header_Conc" key="{6381828F-CAE2-4EF4-8E19-98CE530EC3F2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Conc" ID="{6381828F-CAE2-4EF4-8E19-98CE530EC3F2}" FileName="Regions\Header_Conc.png" Update="False" />
+		</child>
+		<child name="Header_Status" key="{11C84B07-37E1-4613-8A16-C26C2617791B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Status" ID="{11C84B07-37E1-4613-8A16-C26C2617791B}" FileName="Regions\Header_Status.png" Update="False" />
+		</child>
+		<child name="Header_Conc_CV" key="{532C9D02-0CE9-45E2-84B7-27BC633D9842}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Conc_CV" ID="{532C9D02-0CE9-45E2-84B7-27BC633D9842}" FileName="Regions\Header_Conc_CV.png" Update="False" />
+		</child>
+		<child name="Header_Exp_Conc" key="{6C00A7F4-7982-4626-9E43-65534FD52C7A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Exp_Conc" ID="{6C00A7F4-7982-4626-9E43-65534FD52C7A}" FileName="Regions\Header_Exp_Conc.png" Update="False" />
+		</child>
+		<child name="Header_Pct_Recovery" key="{428F2346-9791-45D1-88D7-E27AA1156CCC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Pct_Recovery" ID="{428F2346-9791-45D1-88D7-E27AA1156CCC}" FileName="Regions\Header_Pct_Recovery.png" Update="False" />
+		</child>
+		<child name="Header_DF" key="{FA0EEEBF-464D-4360-BC11-3D9E5E706456}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_DF" ID="{FA0EEEBF-464D-4360-BC11-3D9E5E706456}" FileName="Regions\Header_DF.png" Update="False" />
+		</child>
+		<child name="Header_N" key="{80DD4F1B-E527-4B1C-90EE-76A0BB246084}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_N" ID="{80DD4F1B-E527-4B1C-90EE-76A0BB246084}" FileName="Regions\Header_N.png" Update="False" />
+		</child>
+		<child name="Header_Included" key="{08E72EDF-8C0F-427D-B5A0-EC6790902235}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Included" ID="{08E72EDF-8C0F-427D-B5A0-EC6790902235}" FileName="Regions\Header_Included.png" Update="False" />
+		</child>
+		<child name="Header_Well" key="{994E7EBA-0554-4C70-A19B-0B16AB4EADDB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Header_Well" ID="{994E7EBA-0554-4C70-A19B-0B16AB4EADDB}" FileName="Regions\Header_Well.png" Update="False" />
+		</child>
+		<child name="DataPoints_B7_H1_5PL_1Ysq_80_120" key="{8BB254B9-F469-4300-B7DC-D24187206157}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DataPoints_B7_H1_5PL_1Ysq_80_120" ID="{8BB254B9-F469-4300-B7DC-D24187206157}" FileName="Regions\DataPoints_B7_H1_5PL_1Ysq_80_120.png" Update="False" />
+		</child>
+		<child name="DataPoints_B7_H1_5PL_1Ysq_90_110_RemoveOutliers" key="{D499EAAE-A3D1-4A4C-896D-9C1E1C7AB0CD}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DataPoints_B7_H1_5PL_1Ysq_90_110_RemoveOutliers" ID="{D499EAAE-A3D1-4A4C-896D-9C1E1C7AB0CD}" FileName="Regions\DataPoints_B7_H1_5PL_1Ysq_90_110_RemoveOutliers.png" Update="False" />
+		</child>
+		<child name="RenameMe" key="{5EAE4ADD-285C-4347-9F14-7CC3EC47C380}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="RenameMe" ID="{5EAE4ADD-285C-4347-9F14-7CC3EC47C380}" FileName="Regions\RenameMe.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverY_60_140Pct" key="{2622E0F4-BA87-4ECC-9DDD-269C1A03A867}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverY_60_140Pct" ID="{2622E0F4-BA87-4ECC-9DDD-269C1A03A867}" FileName="Regions\B7_H1_5PL_1OverY_60_140Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverY_70_130Pct" key="{10A28580-7560-4D12-B61C-925CDC172AD9}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverY_70_130Pct" ID="{10A28580-7560-4D12-B61C-925CDC172AD9}" FileName="Regions\B7_H1_5PL_1OverY_70_130Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverY_80_120Pct" key="{6C4A9B3A-6DD7-4CBF-AF06-C3937E6F8F81}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverY_80_120Pct" ID="{6C4A9B3A-6DD7-4CBF-AF06-C3937E6F8F81}" FileName="Regions\B7_H1_5PL_1OverY_80_120Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverY_90_110Pct" key="{68E05894-6BA0-4931-8ED8-2F4A2C4CBB10}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverY_90_110Pct" ID="{68E05894-6BA0-4931-8ED8-2F4A2C4CBB10}" FileName="Regions\B7_H1_5PL_1OverY_90_110Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverYsq_60_140Pct" key="{741308E5-DBF5-4ACD-95C1-ED8D1C08D9D6}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverYsq_60_140Pct" ID="{741308E5-DBF5-4ACD-95C1-ED8D1C08D9D6}" FileName="Regions\B7_H1_5PL_1OverYsq_60_140Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverYsq_70_130Pct" key="{5D43CD02-32E4-482A-A146-0DABE3F8FCDA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverYsq_70_130Pct" ID="{5D43CD02-32E4-482A-A146-0DABE3F8FCDA}" FileName="Regions\B7_H1_5PL_1OverYsq_70_130Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverYsq_80_120Pct" key="{B1F07A1B-0E9E-4034-8A1B-565CE8738010}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverYsq_80_120Pct" ID="{B1F07A1B-0E9E-4034-8A1B-565CE8738010}" FileName="Regions\B7_H1_5PL_1OverYsq_80_120Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_1OverYsq_90_110Pct" key="{6299D4BA-AA24-43A4-A086-75C44619D0A9}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_1OverYsq_90_110Pct" ID="{6299D4BA-AA24-43A4-A086-75C44619D0A9}" FileName="Regions\B7_H1_5PL_1OverYsq_90_110Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_None_60_140Pct" key="{C7F63FA5-B3AC-4B61-BC5B-C2993413378F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_None_60_140Pct" ID="{C7F63FA5-B3AC-4B61-BC5B-C2993413378F}" FileName="Regions\B7_H1_5PL_None_60_140Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_None_70_130Pct" key="{AA7E9F36-F0C9-48FF-84A5-53C327D47571}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_None_70_130Pct" ID="{AA7E9F36-F0C9-48FF-84A5-53C327D47571}" FileName="Regions\B7_H1_5PL_None_70_130Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_None_80_120Pct" key="{A715D8A7-90AF-46B6-80E6-CDD75360ABCC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_None_80_120Pct" ID="{A715D8A7-90AF-46B6-80E6-CDD75360ABCC}" FileName="Regions\B7_H1_5PL_None_80_120Pct.png" Update="False" />
+		</child>
+		<child name="B7_H1_5PL_None_90_110Pct" key="{A06D6DAE-AF19-415C-90AC-14ED2F42791C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="B7_H1_5PL_None_90_110Pct" ID="{A06D6DAE-AF19-415C-90AC-14ED2F42791C}" FileName="Regions\B7_H1_5PL_None_90_110Pct.png" Update="False" />
+		</child>
+		<child name="CD40_4PL_None_60_140" key="{CA497518-E54D-448B-9BBB-11E4826E7498}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CD40_4PL_None_60_140" ID="{CA497518-E54D-448B-9BBB-11E4826E7498}" FileName="Regions\CD40_4PL_None_60_140.png" Update="False" />
+		</child>
+		<child name="CurveData_CD40_4PL_None_60_140" key="{24063657-D6C2-4899-80BD-AB2BFB90D089}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_CD40_4PL_None_60_140" ID="{24063657-D6C2-4899-80BD-AB2BFB90D089}" FileName="Regions\CurveData_CD40_4PL_None_60_140.png" Update="False" />
+		</child>
+		<child name="CD40_4PL_1Y_70_130" key="{DDB073F5-BC53-4387-A5B5-B3AA6FF6E607}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CD40_4PL_1Y_70_130" ID="{DDB073F5-BC53-4387-A5B5-B3AA6FF6E607}" FileName="Regions\CD40_4PL_1Y_70_130.png" Update="False" />
+		</child>
+		<child name="CurveData_CD40_4PL_1Y_70_130" key="{C21022CB-4C4C-4437-ADC5-3B5756F649BB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_CD40_4PL_1Y_70_130" ID="{C21022CB-4C4C-4437-ADC5-3B5756F649BB}" FileName="Regions\CurveData_CD40_4PL_1Y_70_130.png" Update="False" />
+		</child>
+		<child name="CD40_4PL_None_80_120" key="{623BE4C5-8869-42BF-8A71-8B38564B7024}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CD40_4PL_None_80_120" ID="{623BE4C5-8869-42BF-8A71-8B38564B7024}" FileName="Regions\CD40_4PL_None_80_120.png" Update="False" />
+		</child>
+		<child name="CurveData_CD40_4PL_None_80_120" key="{F76ABD7B-3133-4FD5-8E48-A2B4192850EB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_CD40_4PL_None_80_120" ID="{F76ABD7B-3133-4FD5-8E48-A2B4192850EB}" FileName="Regions\CurveData_CD40_4PL_None_80_120.png" Update="False" />
+		</child>
+		<child name="CD40_4PL_1Ysq_90_110" key="{F53781D2-509D-4BC5-8E77-52C3CF665792}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CD40_4PL_1Ysq_90_110" ID="{F53781D2-509D-4BC5-8E77-52C3CF665792}" FileName="Regions\CD40_4PL_1Ysq_90_110.png" Update="False" />
+		</child>
+		<child name="CurveData_CD40_4PL_1Ysq_90_110" key="{26E28353-4D17-481C-9A42-DFFCD90DE426}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_CD40_4PL_1Ysq_90_110" ID="{26E28353-4D17-481C-9A42-DFFCD90DE426}" FileName="Regions\CurveData_CD40_4PL_1Ysq_90_110.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Y_60_140" key="{05BB097B-34DE-41A6-93BF-C2BDDBD05334}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Y_60_140" ID="{05BB097B-34DE-41A6-93BF-C2BDDBD05334}" FileName="Regions\CurveData_B7_H1_5PL_1Y_60_140.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Y_70_130" key="{14696B59-2A80-4FE8-973A-174DA2F36E67}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Y_70_130" ID="{14696B59-2A80-4FE8-973A-174DA2F36E67}" FileName="Regions\CurveData_B7_H1_5PL_1Y_70_130.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Y_80_120" key="{9EB2BF1F-3F77-4A7C-8C54-E05BB32A3C9C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Y_80_120" ID="{9EB2BF1F-3F77-4A7C-8C54-E05BB32A3C9C}" FileName="Regions\CurveData_B7_H1_5PL_1Y_80_120.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Y_90_110" key="{E34841E5-696A-4AD3-8295-657CB35B56E3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Y_90_110" ID="{E34841E5-696A-4AD3-8295-657CB35B56E3}" FileName="Regions\CurveData_B7_H1_5PL_1Y_90_110.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Ysq_60_140" key="{51EDD415-BEFE-44D1-99CC-61F6785C18BB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Ysq_60_140" ID="{51EDD415-BEFE-44D1-99CC-61F6785C18BB}" FileName="Regions\CurveData_B7_H1_5PL_1Ysq_60_140.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Ysq_70_130" key="{11DDCB5B-CFCC-4545-8D02-5AF1A913D55F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Ysq_70_130" ID="{11DDCB5B-CFCC-4545-8D02-5AF1A913D55F}" FileName="Regions\CurveData_B7_H1_5PL_1Ysq_70_130.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Ysq_80_120" key="{FCCB7658-67F5-41AC-AB23-0BD3170B7CDC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Ysq_80_120" ID="{FCCB7658-67F5-41AC-AB23-0BD3170B7CDC}" FileName="Regions\CurveData_B7_H1_5PL_1Ysq_80_120.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_1Ysq_90_110" key="{DD97D8A7-8633-42AE-AEE0-2B46926D5D70}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_1Ysq_90_110" ID="{DD97D8A7-8633-42AE-AEE0-2B46926D5D70}" FileName="Regions\CurveData_B7_H1_5PL_1Ysq_90_110.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_None_60_140" key="{9335DAEC-3AA7-4F2C-92E2-5E16C9B51FFA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_None_60_140" ID="{9335DAEC-3AA7-4F2C-92E2-5E16C9B51FFA}" FileName="Regions\CurveData_B7_H1_5PL_None_60_140.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_None_70_130" key="{D2881A55-7F73-47BA-BBED-354F4EF48207}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_None_70_130" ID="{D2881A55-7F73-47BA-BBED-354F4EF48207}" FileName="Regions\CurveData_B7_H1_5PL_None_70_130.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_None_80_120" key="{473CE9D6-0401-48D3-A8AE-2CBA3D408581}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_None_80_120" ID="{473CE9D6-0401-48D3-A8AE-2CBA3D408581}" FileName="Regions\CurveData_B7_H1_5PL_None_80_120.png" Update="False" />
+		</child>
+		<child name="CurveData_B7_H1_5PL_None_90_110" key="{D28E0C97-4C26-4AF7-82FE-D45C35EF6A5E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="CurveData_B7_H1_5PL_None_90_110" ID="{D28E0C97-4C26-4AF7-82FE-D45C35EF6A5E}" FileName="Regions\CurveData_B7_H1_5PL_None_90_110.png" Update="False" />
+		</child>
+	</children>
+</Root>

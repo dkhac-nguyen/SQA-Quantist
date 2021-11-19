@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0A077452-21A3-4A02-B2E4-51DD63F33802}">
+				<TypeInfo Item0="{F5CD3C40-5FB3-42ED-BF3B-3AF84B7B49A5}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Quantist_Wpf" Key="{CA8905AC-7A60-4CA6-9571-526AC2FB1342}">
+						<TypeInfo Item0="{E6F3F7F3-8DD5-48B3-8F2F-7C34E2FABFE1}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Quantist.Wpf" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindowView" Key="{BB564CC4-D322-4F18-8111-412F20F2F0DB}">
+								<Image FileName="1096477918" Left="0" Top="0" Right="1936" Bottom="1056" />
+								<TypeInfo Item0="{A3D75080-0DDA-4808-8109-D3E319632944}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindowView" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Quantist™" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindowView" Key="{5EF2CAA8-08EC-4C91-9B27-59F7871A8ECB}">
+										<Image FileName="1096477918" Left="8" Top="31" Right="1945" Bottom="1088" />
+										<TypeInfo Item0="{90ABDD0E-781D-46C4-BAC7-E7BC6B9E28CD}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="Quantist.Wpf.Views.MainWindowView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DockPanel" Key="{648BF9DD-25F2-4EC7-9202-DD28466ADDC2}" ExtendedFind="True">
+												<Image FileName="1096477918" Left="8" Top="31" Right="1929" Bottom="1049" />
+												<TypeInfo Item0="{90ABDD0E-781D-46C4-BAC7-E7BC6B9E28CD}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.DockPanel" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Grid" Key="{10B20271-8CC0-4AFD-BEE1-6A11C29522D5}">
+														<Image FileName="1096477918" Left="8" Top="68" Right="1929" Bottom="1011" />
+														<TypeInfo Item0="{90ABDD0E-781D-46C4-BAC7-E7BC6B9E28CD}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.Grid" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="userControl_" Key="{0466AE54-CBF5-43E8-8317-0FC916319D1C}" ExtendedFind="True">
+																<Image FileName="1096477918" Left="1587" Top="144" Right="1908" Bottom="355" />
+																<TypeInfo Item0="{90ABDD0E-781D-46C4-BAC7-E7BC6B9E28CD}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="Quantist.Curve.Views.CurveSettingsView" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ComboBox" Key="{4080624A-910E-4C30-9630-83768E0C91F3}" ExtendedFind="True">
+																		<Image FileName="1096477918" Left="1700" Top="176" Right="1812" Bottom="199" />
+																		<TypeInfo Item0="{25EA6BAB-EF18-4D87-A10D-8362F73E61C1}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.ComboBox" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="ComboBox2" Key="{E28B3589-D22F-436A-818B-4EBAE836B2A6}" ExtendedFind="True">
+																		<Image FileName="46135298" Left="1700" Top="216" Right="1812" Bottom="239" />
+																		<TypeInfo Item0="{25EA6BAB-EF18-4D87-A10D-8362F73E61C1}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.ComboBox" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="ComboBox3" Key="{D3257EE8-D243-49BC-A974-2E75B7409F50}" ExtendedFind="True">
+																		<Image FileName="-40317795" Left="1700" Top="256" Right="1812" Bottom="279" />
+																		<TypeInfo Item0="{25EA6BAB-EF18-4D87-A10D-8362F73E61C1}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.ComboBox" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="ButtonCopyToAll" Key="{52322C98-34E0-4F49-B15E-27B06907E7E0}" ExtendedFind="True">
+																		<Image FileName="1232428489" Left="1813" Top="168" Right="1889" Bottom="189" />
+																		<TypeInfo Item0="{574DDDD9-3FB9-41FE-BEAA-F9EA5916AFE4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.Button" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Copy to All" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="ButtonCopyToAll2" Key="{7A1E9CC9-11A6-4B55-9CBF-8EF719996FE1}" ExtendedFind="True">
+																		<Image FileName="-95725545" Left="1813" Top="208" Right="1889" Bottom="229" />
+																		<TypeInfo Item0="{574DDDD9-3FB9-41FE-BEAA-F9EA5916AFE4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.Button" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Copy to All" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="ButtonCopyToAll3" Key="{9829413B-527F-4C41-9CEC-1C4E3883C7BF}" ExtendedFind="True">
+																		<Image FileName="994913479" Left="1813" Top="248" Right="1889" Bottom="269" />
+																		<TypeInfo Item0="{574DDDD9-3FB9-41FE-BEAA-F9EA5916AFE4}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.Button" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Copy to All" />
+																			</Property>
+																			<Property Name="WPFControlOrdinalNo">
+																				<Value Value="4" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="ComboBox" Key="{C89A9306-8E3F-43C2-BADA-55BD69F2732C}" ExtendedFind="True">
+																<Image FileName="484641882" Left="1643" Top="83" Right="1885" Bottom="105" />
+																<TypeInfo Item0="{2463C0AC-6B27-4AFE-91B8-65DECEE99F33}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.ComboBox" />
+																	</Property>
+																	<Property Name="DisplayMemberPath">
+																		<Value Value="AnalyteName" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Quantist_Wpf" Owner="{CA8905AC-7A60-4CA6-9571-526AC2FB1342}">
+			<Child Name="HwndSource_MainWindowView" Owner="{BB564CC4-D322-4F18-8111-412F20F2F0DB}">
+				<Child Name="MainWindowView" Owner="{5EF2CAA8-08EC-4C91-9B27-59F7871A8ECB}">
+					<Child Name="ComboBox" Owner="{4080624A-910E-4C30-9630-83768E0C91F3}" />
+					<Child Name="ComboBox2" Owner="{E28B3589-D22F-436A-818B-4EBAE836B2A6}" />
+					<Child Name="ComboBox3" Owner="{D3257EE8-D243-49BC-A974-2E75B7409F50}" />
+					<Child Name="ComboBox4" Owner="{C89A9306-8E3F-43C2-BADA-55BD69F2732C}" />
+					<Child Name="ButtonCopyToAll" Owner="{52322C98-34E0-4F49-B15E-27B06907E7E0}" />
+					<Child Name="ButtonCopyToAll2" Owner="{7A1E9CC9-11A6-4B55-9CBF-8EF719996FE1}" />
+					<Child Name="ButtonCopyToAll3" Owner="{9829413B-527F-4C41-9CEC-1C4E3883C7BF}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

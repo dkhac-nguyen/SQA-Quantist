@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{557F0303-5670-4F85-B5C2-2F94D571C540}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="Quantist" />
+	<testData />
+	<data />
+	<children>
+		<child key="{23DAFCBE-D8CD-4E3B-A6F3-C536659D6123}">
+			<config nodeName="Quantist" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="E:\0.0.0.1-x64" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="E:\0.0.0.1-x64" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="E:\0.0.0.1-x64" />
+					<param name="Simple" fileName="Quantist.Wpf.exe" filePath="E:\0.0.0.1-x64\" parameters="" workFolder="E:\0.0.0.1-x64" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

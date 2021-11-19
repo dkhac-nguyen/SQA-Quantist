@@ -1,0 +1,30 @@
+﻿def Configure_Curve():
+
+  mainWindowView = Aliases.Quantist_Wpf.HwndSource_MainWindowView.MainWindowView
+
+  comboBox = mainWindowView.ComboBox4
+  comboBox.ClickItem(0)
+  comboBox2.ClickItem("FourPL")
+  comboBox2 = mainWindowView.ComboBox2
+  comboBox2.ClickItem("OneOverYSquared")
+  comboBox3 = mainWindowView.ComboBox3
+  comboBox3.ClickItem("From60To140")
+  mainWindowView.ButtonCopyToAll.ClickButton()
+  comboBox.ClickItem(1)
+  aqObject.CheckProperty(Aliases.Quantist_Wpf.HwndSource_MainWindowView.MainWindowView.ComboBox, "wText", cmpEqual, "FourPL")
+  comboBox.ClickItem(2)
+  aqObject.CheckProperty(Aliases.Quantist_Wpf.HwndSource_MainWindowView.MainWindowView.ComboBox, "wText", cmpEqual, "FourPL")
+  comboBox.ClickItem(0)
+  comboBox2.ClickItem("None")
+  mainWindowView.ButtonCopyToAll2.ClickButton()
+  comboBox.ClickItem(1)
+  aqObject.CheckProperty(Aliases.Quantist_Wpf.HwndSource_MainWindowView.MainWindowView.ComboBox2, "wText", cmpEqual, "None")
+  comboBox.ClickItem(14)
+  aqObject.CheckProperty(Aliases.Quantist_Wpf.HwndSource_MainWindowView.MainWindowView.ComboBox2, "wText", cmpEqual, "None")
+  comboBox3.ClickItem("From90To110")
+  mainWindowView.ButtonCopyToAll3.ClickButton()
+  comboBox.ClickItem(0)
+  aqObject.CheckProperty(Aliases.Quantist_Wpf.HwndSource_MainWindowView.MainWindowView.ComboBox3, "wText", cmpEqual, "From90To110")
+
+def Verify_Curve_Configs(analyte, curveFit, curveWeighting, recoveryRange):
+  pass

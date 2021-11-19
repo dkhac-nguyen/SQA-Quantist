@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Load_CSV_Files" key="{400B1B4B-D357-43F6-9154-8D6D99376666}" path="Load_CSV_Files.py" />
+		<child name="Load_CSV_File" key="{C824E796-8986-455F-B3B1-2F803E591D61}" path="Load_CSV_File.py" />
+		<child name="Quantist_Launch" key="{579F678E-42D0-4E66-BC5F-9A1EE932127C}" path="..\..\Quantist_SmokeTest\Script\Quantist_Launch.py" />
+	</children>
+</Root>
