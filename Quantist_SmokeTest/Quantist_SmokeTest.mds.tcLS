@@ -30,12 +30,6 @@
 						<Node name="value">
 							<Prp name="strvalue" type="H" value=" "/>
 						</Node>
-						<Prp name="name" type="S" value="Version"/>
-					</Node>
-					<Node name="var1">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value=" "/>
-						</Node>
 						<Prp name="name" type="S" value="CopyRight"/>
 					</Node>
 				</Node>

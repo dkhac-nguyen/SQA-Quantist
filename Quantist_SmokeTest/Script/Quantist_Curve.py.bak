@@ -1,31 +1,16 @@
-﻿def Curve_View():
+﻿def Analyte_Results_Curve_Configuration_View():
   
   #try to reuse Load_CSV_Files from CSV_Files project
   quantist = Aliases.Quantist
   mainWindowView = quantist.MainWindowView
-  gridSplitter = mainWindowView.GridSplitter
-  mainWindowView.Button.ClickButton()
+  #gridSplitter = mainWindowView.GridSplitter
+  mainWindowView.LoadButton.ClickButton()
   quantist.dlgOpen.OpenFile(ProjectSuite.Variables.SampleDataFolder + ProjectSuite.Variables.sample_csv_pm8800)
-  aqUtils.Delay(ProjectSuite.Variables.Short_Delay)
+  aqUtils.Delay(ProjectSuite.Variables.Long_Delay)
   ##
   Regions.PM8800_Tree.Check(Aliases.Quantist.MainWindowView.RunTreeView.TreeViewItem)
-  Regions.PM8800_Chart.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.PM8800_Options.Check(Regions.CreateRegionInfo(Aliases.Quantist.MainWindowView.MainView, 1257, 5, 324, 873, False))
-  Regions.PM8800_ListControl.Check(Aliases.Quantist.MainWindowView.MainView.ListControl)
+  Regions.PM8800_Chart.Check(Aliases.Quantist.MainWindowView.Border.zchart)
+  Regions.PM8800_Options.Check(Aliases.Quantist.MainWindowView.Border.ScrollViewer)
+  Regions.PM8800_main.Check(Aliases.Quantist.MainWindowView)    
 
-  Regions.Header_Sample.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.Sample_Header)
-  Regions.Header_Use.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.Use_Header)
-  Regions.Header_Well.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.Well_Header)
-  Regions.Header_MFI.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader4)
-  Regions.Header_MFI_CV.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader5)
-  Regions.Header_Net_MFI.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader6)
-  Regions.Header_Conc.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader7)
-  Regions.Header_Status.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader8)
-  Regions.Header_Conc_CV.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader9)
-  Regions.Header_Exp_Conc.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader10)
-  Regions.Header_Pct_Recovery.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader11)
-  Regions.Header_DF.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader12)
-  Regions.Header_N.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader13)
-  Regions.Header_Included.Check(Aliases.Quantist.MainWindowView.MainView.ListControl.GridColumnHeader14)  
- 
 

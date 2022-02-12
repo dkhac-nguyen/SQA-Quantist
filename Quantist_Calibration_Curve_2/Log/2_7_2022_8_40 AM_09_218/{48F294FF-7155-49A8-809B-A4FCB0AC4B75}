@@ -1,0 +1,2317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 22">
+			<Prp name="date" type="D" value="44599.3612911227"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1C78F1EB-523D-453F-B0B7-F62E598B777F}"/>
+		</Node>
+		<Node name="message 65">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object bottom" type="I" value="948"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="937"/>
+					<Prp name="object top" type="I" value="926"/>
+					<Prp name="datetime" type="D" value="44599.6946791435"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="85"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613472685"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_7&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 8).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="85"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="date" type="D" value="44599.3612911111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 153.00115510647993"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="date" type="D" value="44599.3613369097"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 160.0001162942608"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="date" type="D" value="44599.3612817477"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="date" type="D" value="44599.3613482407"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 54">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_5"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object bottom" type="I" value="906"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="895"/>
+					<Prp name="object top" type="I" value="884"/>
+					<Prp name="datetime" type="D" value="44599.6946584491"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="74"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613326273"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_5&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 6).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="74"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="date" type="D" value="44599.3613481829"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 6235.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object bottom" type="I" value="843"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="832"/>
+					<Prp name="object top" type="I" value="821"/>
+					<Prp name="datetime" type="D" value="44599.6946248264"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="47"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612985185"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_2&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 3).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.Button"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="67"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object bottom" type="I" value="127"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="114"/>
+					<Prp name="object top" type="I" value="101"/>
+					<Prp name="datetime" type="D" value="44599.6945640857"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.361233206"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.Button&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RunMenuView&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 3))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="date" type="D" value="44599.361281794"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="date" type="D" value="44599.3612911111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 153.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="date" type="D" value="44599.3613022222"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 2116.4996558403745"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="date" type="D" value="44599.3613138194"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_3"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object bottom" type="I" value="864"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="853"/>
+					<Prp name="object top" type="I" value="842"/>
+					<Prp name="datetime" type="D" value="44599.6946357986"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613097222"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_3&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 4).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="date" type="D" value="44599.3612910764"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 80.00106343797233"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 84">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="object bottom" type="I" value="969"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="958"/>
+					<Prp name="object top" type="I" value="947"/>
+					<Prp name="datetime" type="D" value="44599.694692963"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="101"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613665393"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_8&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 9).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="date" type="D" value="44599.3613021875"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="date" type="D" value="44599.3613021759"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 212.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="date" type="D" value="44599.3613248958"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 4.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="date" type="D" value="44599.3613481944"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 6235.000260995458"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="date" type="D" value="44599.361336875"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="date" type="D" value="44599.3613248727"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="date" type="D" value="44599.3612817593"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="date" type="D" value="44599.3613368866"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 97">
+			<Prp name="date" type="D" value="44599.3613817824"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 4.848663053549899"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="date" type="D" value="44599.361291088"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 71">
+			<Prp name="date" type="D" value="44599.3613482407"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 2092.9991999085178"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="date" type="D" value="44599.3613138194"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 74">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object bottom" type="I" value="948"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="937"/>
+					<Prp name="object top" type="I" value="926"/>
+					<Prp name="datetime" type="D" value="44599.6946818056"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="92"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613553356"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_7&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 8).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 75">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object bottom" type="I" value="969"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="958"/>
+					<Prp name="object top" type="I" value="947"/>
+					<Prp name="datetime" type="D" value="44599.6946901273"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="94"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613585417"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_8&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 9).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="94"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 95">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_10"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="object bottom" type="I" value="801"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="790"/>
+					<Prp name="object top" type="I" value="779"/>
+					<Prp name="datetime" type="D" value="44599.6947127662"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="112"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613808912"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_10&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="date" type="D" value="44599.361348206"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="date" type="D" value="44599.3612817824"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 5.001253303576959"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 104">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_10"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="object bottom" type="I" value="801"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="790"/>
+					<Prp name="object top" type="I" value="779"/>
+					<Prp name="datetime" type="D" value="44599.6947153704"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="119"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613889699"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_10&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 88">
+			<Prp name="date" type="D" value="44599.3613706366"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="date" type="D" value="44599.3613368634"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 3008.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="date" type="D" value="44599.3613138079"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 77.00021884200396"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="date" type="D" value="44599.3613482523"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object bottom" type="I" value="822"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="811"/>
+					<Prp name="object top" type="I" value="800"/>
+					<Prp name="datetime" type="D" value="44599.6946154861"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="tcvi165103000628815.png"/>
+					<Prp name="object bottom" type="I" value="801"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="790"/>
+					<Prp name="object top" type="I" value="779"/>
+					<Prp name="datetime" type="D" value="44597.1853703704"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="339"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612864815"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_1&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 2).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="date" type="D" value="44599.3612911343"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 100">
+			<Prp name="date" type="D" value="44599.3613818171"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 78.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="date" type="D" value="44599.3613706366"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="date" type="D" value="44599.3613594097"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="date" type="D" value="44599.3613482292"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 2093.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="date" type="D" value="44599.3613022338"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="date" type="D" value="44599.3613138079"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 77.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 92">
+			<Prp name="date" type="D" value="44599.3613706713"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="date" type="D" value="44599.3613137616"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 520.9987999610275"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 55">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_6"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object bottom" type="I" value="927"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="916"/>
+					<Prp name="object top" type="I" value="905"/>
+					<Prp name="datetime" type="D" value="44599.6946674537"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="76"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613360417"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_6&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 7).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="76"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="date" type="D" value="44599.3613248958"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 4.848663053549899"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 64">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_6"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object bottom" type="I" value="927"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="916"/>
+					<Prp name="object top" type="I" value="905"/>
+					<Prp name="datetime" type="D" value="44599.6946704745"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="83"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613444676"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_6&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 7).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="83"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="date" type="D" value="44599.3613369213"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="date" type="D" value="44599.3613248611"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 1312.0007617003394"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="date" type="D" value="44599.3613593982"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 4.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="date" type="D" value="44599.3613249074"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="date" type="D" value="44599.3613248611"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 102">
+			<Prp name="date" type="D" value="44599.3613818287"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_3"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object bottom" type="I" value="864"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="853"/>
+					<Prp name="object top" type="I" value="842"/>
+					<Prp name="datetime" type="D" value="44599.6946333218"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.361301412"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_3&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 4).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="date" type="D" value="44599.3613817708"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="message" type="S" value="  netMFI displayed: -0.5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 103">
+			<Prp name="date" type="D" value="44599.3613818403"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="date" type="D" value="44599.3613594213"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="date" type="D" value="44599.361359375"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="date" type="D" value="44599.3613706829"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="date" type="D" value="44599.3613021991"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 94">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_9"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="object bottom" type="I" value="990"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="979"/>
+					<Prp name="object top" type="I" value="968"/>
+					<Prp name="datetime" type="D" value="44599.6947042361"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="110"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613777199"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_9&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 10).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="110"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 91">
+			<Prp name="date" type="D" value="44599.3613706597"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 157.00111268066394"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="date" type="D" value="44599.3613249074"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="date" type="D" value="44599.3613368981"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 160.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object bottom" type="I" value="885"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="874"/>
+					<Prp name="object top" type="I" value="863"/>
+					<Prp name="datetime" type="D" value="44599.6946445949"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.RowMarginControl2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="tcvi165110187628825.png"/>
+					<Prp name="object bottom" type="I" value="885"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="876"/>
+					<Prp name="object top" type="I" value="863"/>
+					<Prp name="datetime" type="D" value="44597.1854513889"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="337"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613128472"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_4&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 5).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="date" type="D" value="44599.3613593519"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 29.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="date" type="D" value="44599.361381794"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="44599.3612817361"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 28.001794798703486"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 69">
+			<Prp name="date" type="D" value="44599.361348206"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="date" type="D" value="44599.3612910648"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 80.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object bottom" type="I" value="843"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="832"/>
+					<Prp name="object top" type="I" value="821"/>
+					<Prp name="datetime" type="D" value="44599.6946222222"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612900926"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_2&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 3).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="date" type="D" value="44599.3613021759"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 211.99962052384944"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="date" type="D" value="44599.3613022106"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 2116.5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1568"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object bottom" type="I" value="1031"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="924"/>
+					<Prp name="object top" type="I" value="758"/>
+					<Prp name="datetime" type="D" value="44599.6946052199"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1555"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612758796"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 1224, 166.&#xA;End point: 1230, 39.&#xA;Dragging distance: 6, -127.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="date" type="D" value="44599.3613368634"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 3007.9993877057404"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="date" type="D" value="44599.3613137732"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.Sample_Col"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="462"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object bottom" type="I" value="780"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="769"/>
+					<Prp name="object top" type="I" value="758"/>
+					<Prp name="datetime" type="D" value="44599.6946006366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="396"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612694213"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.Sample_Col&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;GridColumnHeader&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.RunTreeView.TreeViewItem.Button"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="128"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="144"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="158"/>
+					<Prp name="object top" type="I" value="150"/>
+					<Prp name="datetime" type="D" value="44599.6945602546"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="136"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612295486"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.RunTreeView.TreeViewItem.Button&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RunMenuView&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;RunTreeView&quot;).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;❌&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.dlgOpen"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="960"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object bottom" type="I" value="644"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44599.694574456"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612449306"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The file 'PM8800.csv' was selected in the Open dialog."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The file 'C:\Quantist\SQA-Quantist\Test_Data\SampleQuantistFiles\PM8800.csv' was opened as a 'Consumable Files (*.csv;*.quantist)' file.&#xA;&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.dlgOpen&#xA;(Sys.Process(&quot;Quantist&quot;).Window(&quot;#32770&quot;, &quot;Open&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="date" type="D" value="44599.3612818056"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 101">
+			<Prp name="date" type="D" value="44599.3613818287"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 77.99963014450441"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="date" type="D" value="44599.3613706597"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 157.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="date" type="D" value="44599.3613137616"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 521.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 98">
+			<Prp name="date" type="D" value="44599.361381794"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="date" type="D" value="44599.3613022454"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object bottom" type="I" value="885"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="874"/>
+					<Prp name="object top" type="I" value="863"/>
+					<Prp name="datetime" type="D" value="44599.6946473611"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613209259"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_4&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 5).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="65"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="date" type="D" value="44599.361359375"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="44599.3612817245"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 28.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="date" type="D" value="44599.3613137847"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object bottom" type="I" value="822"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="811"/>
+					<Prp name="object top" type="I" value="800"/>
+					<Prp name="datetime" type="D" value="44599.6946104167"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="tcvi165083796628810.png"/>
+					<Prp name="object bottom" type="I" value="801"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="787"/>
+					<Prp name="object top" type="I" value="779"/>
+					<Prp name="datetime" type="D" value="44597.185150463"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="340"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3612783449"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_1&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 2).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 86">
+			<Prp name="date" type="D" value="44599.3613706134"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 77.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="date" type="D" value="44599.361370625"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 77.00021884200396"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="date" type="D" value="44599.3612817824"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 5.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="date" type="D" value="44599.3612910764"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="message" type="S" value="  netMFI 5PL verification Passed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="date" type="D" value="44599.3613248495"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="message" type="S" value="  netMFI displayed: 1312.0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 85">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_9"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object bottom" type="I" value="990"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="979"/>
+					<Prp name="object top" type="I" value="968"/>
+					<Prp name="datetime" type="D" value="44599.6947016319"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="103"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613696759"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_9&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 10).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="date" type="D" value="44599.3613594097"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 4.848663053549899"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 45">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainApp.MainWindow.GridData.row_5"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object bottom" type="I" value="906"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="895"/>
+					<Prp name="object top" type="I" value="884"/>
+					<Prp name="datetime" type="D" value="44599.6946562268"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="67"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44599.3613241319"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainApp.MainWindow.GridData.row_5&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_dcfbca964234411e8f12091b0dbc5b55&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_pointListView1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_treeListControl1&quot;).WPFObject(&quot;_treeListView1&quot;).WPFObject(&quot;HierarchyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;RowControl&quot;, &quot;&quot;, 6).WPFObject(&quot;RowMarginControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="67"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="date" type="D" value="44599.3613593634"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="message" type="S" value="  netMFI value calculated: 28.999522501082538"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 63">
+			<Prp name="date" type="D" value="44599.3613369213"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="message" type="S" value=" "/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="128"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

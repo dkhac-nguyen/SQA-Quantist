@@ -20,7 +20,17 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44603.6761926273"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0444D588-7BAA-4A7E-8E18-D37D2B7C6648}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Analytes_Panel"/>
+				<Prp name="relpath" type="S" value="2_11_2022_4_13 PM_43_43\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

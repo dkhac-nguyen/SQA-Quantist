@@ -1,0 +1,25 @@
+Sample	Use	Well(s)	MFI	MFI CV%	Net MFI	Conc.	Status	Conc. CV%	Exp Conc.	% Recovery	DF	n	Included
+Background0	Blank	A1,A2	15.00	0.00	0.00							2	Checked
+Standard1	Standard	B1,B2	6472.50	3.97	6457.50	54620.73	>ULOQ	8.47	46670.00	117.04		2	Checked
+Standard2	Standard	C1,C2	3028.75	3.21	3013.75	15006.71		4.60	15556.67	96.46		2	Checked
+Standard3	Standard	D1,D2	1277.00	3.38	1262.00	4835.98		4.16	5185.56	93.26		2	Checked
+Standard4	Standard	E1,E2	542.00	5.22	527.00	1731.85		6.16	1728.52	100.19		2	Checked
+Standard5	Standard	F1,F2	215.50	3.61	200.50	576.29		4.41	576.17	100.02		2	Checked
+Standard6	Standard	G1,G2	95.50	2.22	80.50	202.19		3.08	192.06	105.27		2	Checked
+Standard7	Standard	H1,H2	46.00	3.07	31.00	63.17	<LLOQ	5.91	64.02	98.67		2	Checked
+Unknown1	Unknown	A3,A5	53.00	101.40	38.00	94.51	<LLOQ	141.42				2	Checked
+Unknown10	Unknown	B4,B6	4259.50	69.67	4244.50	30968.07	>ULOQ	98.33				2	Checked
+Unknown11	Unknown	C4,C6	1632.75	126.52	1617.75	7951.25		133.66				2	Checked
+Unknown12	Unknown	D4,D6	668.50	136.98	653.50	2510.05	<LLOQ	141.30				2	Checked
+Unknown13	Unknown	E4,E6	307.25	100.92	292.25	926.77		113.91				2	Checked
+Unknown14	Unknown	F4,F6	1156.25	115.37	1141.25	4825.43		124.77				2	Checked
+Unknown15	Unknown	G4,G6	132.00	42.85	117.00	314.12		55.01				2	Checked
+Unknown16	Unknown	H4,H6	31.50	56.12	16.50	28.95	<LLOQ	141.42				2	Checked
+Unknown2	Unknown	B3,B5	4179.00	70.08	4164.00	29892.78	>ULOQ	98.22				2	Checked
+Unknown3	Unknown	C3,C5	1599.00	125.94	1584.00	7703.84		133.24				2	Checked
+Unknown4	Unknown	D3,D5	673.00	137.43	658.00	2534.92	<LLOQ	141.42				2	Checked
+Unknown5	Unknown	E3,E5	314.00	99.99	299.00	950.45		112.86				2	Checked
+Unknown6	Unknown	F3,F5	1179.25	114.20	1164.25	4939.78		123.84				2	Checked
+Unknown7	Unknown	G3,G5	131.50	39.25	116.50	312.19		50.50				2	Checked
+Unknown8	Unknown	H3,H5	31.50	51.63	16.50	27.76	<LLOQ	140.26				2	Checked
+Unknown9	Unknown	A4,A6	53.75	103.27	38.75	97.43	<LLOQ	141.42				2	Checked

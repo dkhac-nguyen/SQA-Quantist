@@ -1,6 +1,9 @@
 ﻿import Quantist_Removing_Files
 
-def Curve_Analytes(): 
+def Curve_Analytes():
+  pass
+
+def Curve_Analytes_BK(): 
   
   treeView = Aliases.Quantist.MainWindowView.RunTreeView
   if not (treeView.HasItems): 

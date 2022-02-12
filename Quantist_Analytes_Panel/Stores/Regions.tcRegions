@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="Selected_Analytes_moved_down" key="{23C7F777-CAC7-4654-BAD7-C4F654008A49}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Selected_Analytes_moved_down" ID="{23C7F777-CAC7-4654-BAD7-C4F654008A49}" FileName="Regions\Selected_Analytes_moved_down.png" Update="False" />
+		</child>
+		<child name="Selected_Analytes_moved_up" key="{81E099A4-F38F-4B39-9B37-FF471F7EB830}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Selected_Analytes_moved_up" ID="{81E099A4-F38F-4B39-9B37-FF471F7EB830}" FileName="Regions\Selected_Analytes_moved_up.png" Update="False" />
+		</child>
+		<child name="Uncheck_Included" key="{83117A0C-DD42-42AE-B2B9-473A7E456F02}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Uncheck_Included" ID="{83117A0C-DD42-42AE-B2B9-473A7E456F02}" FileName="Regions\Uncheck_Included.png" Update="False" />
+		</child>
+		<child name="Check_Included_Reset" key="{DB6C1E5F-9C2C-4C26-B38D-36D9DF163416}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Check_Included_Reset" ID="{DB6C1E5F-9C2C-4C26-B38D-36D9DF163416}" FileName="Regions\Check_Included_Reset.png" Update="False" />
+		</child>
+		<child name="AP_copy_paste_selected" key="{85DCA90F-E16B-459E-82E3-4BA0360A2830}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="AP_copy_paste_selected" ID="{85DCA90F-E16B-459E-82E3-4BA0360A2830}" FileName="Regions\AP_copy_paste_selected.png" Update="False" />
+		</child>
+		<child name="AP_Sorting_Analyte_Names_1" key="{61303754-8B60-47D8-A1A6-F1EF9922BA0F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="AP_Sorting_Analyte_Names_1" ID="{61303754-8B60-47D8-A1A6-F1EF9922BA0F}" FileName="Regions\AP_Sorting_Analyte_Names_1.png" Update="False" />
+		</child>
+		<child name="AP_Sorting_Region" key="{47A9BCE4-D67C-4F7F-8BF6-B5A45AA69D1A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="AP_Sorting_Region" ID="{47A9BCE4-D67C-4F7F-8BF6-B5A45AA69D1A}" FileName="Regions\AP_Sorting_Region.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_names_changed_1" key="{51B8AD75-DEDD-4C87-9D38-DCB35F60E22B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_names_changed_1" ID="{51B8AD75-DEDD-4C87-9D38-DCB35F60E22B}" FileName="Regions\WA_data_grid_analytes_names_changed_1.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_names_changed_2" key="{D066A817-DCAE-4585-88D9-8AAE59174483}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_names_changed_2" ID="{D066A817-DCAE-4585-88D9-8AAE59174483}" FileName="Regions\WA_data_grid_Analytes_names_Changed_2.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_names_changed_3" key="{99916595-3206-4A53-A978-5D6C824CDE66}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_names_changed_3" ID="{99916595-3206-4A53-A978-5D6C824CDE66}" FileName="Regions\WA_data_grid_analytes_names_changed_3.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_names_changed_4" key="{9C00355C-181E-486D-989A-BA635226CD92}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_names_changed_4" ID="{9C00355C-181E-486D-989A-BA635226CD92}" FileName="Regions\WA_data_grid_analytes_names_changed_4.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_names_changed_5" key="{F405708B-C734-4AEA-A078-A807C147D7FA}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_names_changed_5" ID="{F405708B-C734-4AEA-A078-A807C147D7FA}" FileName="Regions\WA_data_grid_analytes_names_changed_5.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_names_changed_6" key="{4BFF6AEC-9D98-42C9-9D5E-59D93DB32266}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_names_changed_6" ID="{4BFF6AEC-9D98-42C9-9D5E-59D93DB32266}" FileName="Regions\WA_data_grid_analytes_names_changed_6.png" Update="False" />
+		</child>
+		<child name="MA_data_grid_analytes_names_changed_1" key="{9A5FAEE5-90AD-4C76-8F17-AD85E3C1C767}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MA_data_grid_analytes_names_changed_1" ID="{9A5FAEE5-90AD-4C76-8F17-AD85E3C1C767}" FileName="Regions\MA_data_grid_analytes_names_changed_1.png" Update="False" />
+		</child>
+		<child name="MA_data_grid_analytes_names_changed_2" key="{F377E80C-7B48-438B-AB54-8F014635FD26}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MA_data_grid_analytes_names_changed_2" ID="{F377E80C-7B48-438B-AB54-8F014635FD26}" FileName="Regions\MA_data_grid_analytes_names_changed_2.png" Update="False" />
+		</child>
+		<child name="MA_data_grid_analytes_names_changed_3" key="{3D62D752-4568-4BF4-AF44-2C6AEEDB8630}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MA_data_grid_analytes_names_changed_3" ID="{3D62D752-4568-4BF4-AF44-2C6AEEDB8630}" FileName="Regions\MA_data_grid_analytes_names_changed_3.png" Update="False" />
+		</child>
+		<child name="MA_data_grid_analytes_names_changed_4" key="{ABF5A707-9F99-4C57-992F-AF461D8A1374}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MA_data_grid_analytes_names_changed_4" ID="{ABF5A707-9F99-4C57-992F-AF461D8A1374}" FileName="Regions\MA_data_grid_analytes_names_changed_4.png" Update="False" />
+		</child>
+		<child name="MA_data_grid_analytes_names_changed_5" key="{3F9BEB85-09FD-437E-AC2A-0558EC40D4E0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="MA_data_grid_analytes_names_changed_5" ID="{3F9BEB85-09FD-437E-AC2A-0558EC40D4E0}" FileName="Regions\MA_data_grid_analytes_names_changed_5.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_notIncluded_2" key="{278AC97B-1081-4796-9BFA-D0B54263A16B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_notIncluded_2" ID="{278AC97B-1081-4796-9BFA-D0B54263A16B}" FileName="Regions\WA_data_grid_analytes_notIncluded_2.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_notIncluded_1" key="{D53DE56F-DE9E-4ED7-91D6-BFF5E1F3C0D1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_notIncluded_1" ID="{D53DE56F-DE9E-4ED7-91D6-BFF5E1F3C0D1}" FileName="Regions\WA_data_grid_analytes_notIncluded_1.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_notIncluded_3" key="{9A84313D-7449-4297-8C71-D66DF893F331}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_notIncluded_3" ID="{9A84313D-7449-4297-8C71-D66DF893F331}" FileName="Regions\WA_data_grid_analytes_notIncluded_3.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_notIncluded_4" key="{D8F77FA5-6163-44A0-AAC7-B8674B57D52D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_notIncluded_4" ID="{D8F77FA5-6163-44A0-AAC7-B8674B57D52D}" FileName="Regions\WA_data_grid_analytes_notIncluded_4.png" Update="False" />
+		</child>
+		<child name="WA_data_grid_analytes_notIncluded_5" key="{8CCAC46C-59EC-4C1F-92EC-1AF27EF9BE20}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="WA_data_grid_analytes_notIncluded_5" ID="{8CCAC46C-59EC-4C1F-92EC-1AF27EF9BE20}" FileName="Regions\WA_data_grid_analytes_notIncluded_5.png" Update="False" />
+		</child>
+	</children>
+</Root>

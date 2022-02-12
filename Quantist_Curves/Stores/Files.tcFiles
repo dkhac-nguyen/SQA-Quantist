@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="15.0">
+	<children>
+		<child name="PM8800_Aggregates" key="{B324ED5A-B8C5-4C40-BF33-ED6D02E3B4CB}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="PM8800_Aggregates" ID="{B324ED5A-B8C5-4C40-BF33-ED6D02E3B4CB}" FileName="Files\PM8800_Aggregates.txt" Update="False" />
+		</child>
+		<child name="PM8800_Replicates" key="{857854E5-8357-40C3-A7DA-DBD19E62BE30}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="PM8800_Replicates" ID="{857854E5-8357-40C3-A7DA-DBD19E62BE30}" FileName="Files\PM8800_Replicates.txt" Update="False" />
+		</child>
+		<child name="RemoveOutliers_All_Replicates" key="{D0345A20-C1D4-4ACF-819D-599176611CF3}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="RemoveOutliers_All_Replicates" ID="{D0345A20-C1D4-4ACF-819D-599176611CF3}" FileName="Files\RemoveOutliers_All_Replicates.txt" Update="False" />
+		</child>
+	</children>
+</Root>

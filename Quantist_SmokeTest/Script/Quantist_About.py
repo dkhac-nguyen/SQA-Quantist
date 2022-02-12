@@ -1,7 +1,10 @@
 ﻿def About():
-
-  Aliases.Quantist.MainWindowView.Menu.WPFMenu.Click("Help|About")
   #BuiltIn.ShowMessage("About Box is clicked but nothing here to verify, yet!")
+  Aliases.Quantist.MainWindowView.Menu.WPFMenu.Click("Help|About")
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.Version, "Text", cmpEqual, "Release Version: 0.8.0.0")
+
+  aqUtils.Delay(ProjectSuite.Variables.Short_Delay)
   
-  OCR.Recognize(Aliases.Quantist.MainWindowView.Text_Version).CheckText("*Release Version: 0.0.0.3*")
-  OCR.Recognize(Aliases.Quantist.MainWindowView.Text_CopyRight).CheckText("*© Copyright 2021 Bio-Techne. All Rights Reserved*")
+  #verify Quantist TM top left corner
+  Regions.Quantist_TM.Check(Regions.CreateRegionInfo(Aliases.Quantist.MainWindowView, 30, 9, 64, 21, False), False, False, 89, 17)
+    

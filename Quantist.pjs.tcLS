@@ -35,11 +35,20 @@
 			<Node name="{4fd0ccbe-6b6c-4dc1-ae9a-be5a98a9e375}">
 				<Prp name="relpath" type="S" value="Quantist_Analytes_Panel\Quantist_Analytes_Panel.mds.tcLS"/>
 			</Node>
+			<Node name="{5fa3ad72-c988-47c5-9351-f226733762a9}">
+				<Prp name="relpath" type="S" value="Quantist_Performance\Quantist_Performance.mds.tcLS"/>
+			</Node>
 			<Node name="{700570db-e507-4320-aa17-6d7068ab22d0}">
 				<Prp name="relpath" type="S" value="Quantist_Import_CSV_Files\Quantist_Import_CSV_Files.mds.tcLS"/>
 			</Node>
+			<Node name="{71972998-884b-4ef7-9166-13481da486ee}">
+				<Prp name="relpath" type="S" value="Quantist_Multi_Analytes\Quantist_Multi_Analytes.mds.tcLS"/>
+			</Node>
 			<Node name="{87ecd5d2-e7c6-4781-8725-12953827facf}">
 				<Prp name="relpath" type="S" value="Quantist_Curves\Quantist_Calibration_Curves.mds.tcLS"/>
+			</Node>
+			<Node name="{8eadddd7-9a8d-4849-ac38-51aad7096ec8}">
+				<Prp name="relpath" type="S" value="Quantist_Calibration_Curve_2\Quantist_Calibration_Curve_Unknowns.mds.tcLS"/>
 			</Node>
 			<Node name="{d195603e-77fb-49ae-a159-67293441391f}">
 				<Prp name="relpath" type="S" value="Quantist_Results\Quantist_Results.mds.tcLS"/>
@@ -62,6 +71,18 @@
 					<Node name="var1">
 						<Prp name="name" type="S" value="Long_Delay"/>
 					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="Long_Delay_10"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="sample_csv_unknown_control"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="SampleDataFolder"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="WellAssignmentsFolder"/>
+					</Node>
 					<Node name="var2">
 						<Node name="value">
 							<Prp name="strvalue" type="H" value=" "/>
@@ -72,7 +93,7 @@
 						<Node name="value">
 							<Prp name="strvalue" type="H" value=" "/>
 						</Node>
-						<Prp name="name" type="S" value="SampleDataFolder"/>
+						<Prp name="name" type="S" value="SampleDataFolder_bk"/>
 					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="sample_csv_pm8800"/>

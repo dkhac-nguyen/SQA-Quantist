@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="50"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage207_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="50"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964299884"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage207.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="50"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9503703704"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243114078523247.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="date" type="D" value="44601.8630993519"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{804638A9-A5B0-4C43-9BAA-0FCE948C724C}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL2_Unks_Ctrls_After&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL2_Unks_Ctrls_After&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8631236806"/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="picture" type="S" value="Picture93.png;Picture94.png"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage200_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963761806"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage200.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9489930556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243233500523228.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 0 was selected."/>
+			<Prp name="date" type="D" value="44601.8630454282"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Total Number of loading items: 1"/>
+			<Prp name="date" type="D" value="44601.8629600231"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage211_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964626852"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage211.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9505787037"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243096187523255.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 0 was selected."/>
+			<Prp name="date" type="D" value="44601.8631316782"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{129177BA-B252-48EE-94C4-373021CF10E8}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL2_Unks_after&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL2_Unks_after&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630607292"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="picture" type="S" value="Picture87.png;Picture88.png"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 27">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{7753FB5F-FE01-41D3-861C-319A51DE3EF2}&quot;&gt; Click here to show or modify data of the checkpoint &quot;BAFF_before&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;BAFF_before&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8631431944"/>
+			<Prp name="line no" type="I" value="60"/>
+			<Prp name="picture" type="S" value="Picture97.png;Picture98.png"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage197_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963623032"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage197.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.948599537"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243267218523217.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="date" type="D" value="44601.8630309491"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{416236DC-E622-42FF-BCE8-8FE60649E2BE}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL3_before&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL3_before&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8631649421"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="picture" type="S" value="Picture101.png;Picture102.png"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{4667685D-58FA-46F8-8A13-ACE489A09390}&quot;&gt; Click here to show or modify data of the checkpoint &quot;BAFF_Unks_after&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;BAFF_Unks_after&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630488542"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value="Picture85.png;Picture86.png"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{5A1D96FF-FF1A-446A-94D0-5ED3BB1257B9}"/>
+			<Prp name="unit 1" type="S" value="{DDFED98B-D695-4CA4-9377-85019E46AA36}"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage212_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1712"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964688079"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowUnknowns"/>
+					<Prp name="image file name" type="S" value="visImage212.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="714"/>
+					<Prp name="click point x" type="I" value="1658"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1604"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1712"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9509143519"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.CheckboxShowUnknowns"/>
+					<Prp name="image file name" type="S" value="tcvi-243066812523258.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="715"/>
+					<Prp name="click point x" type="I" value="1613"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1604"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'unchecked'.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowUnknowns&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;GraphSettingsView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;CheckBox&quot;, &quot;Show Unknowns&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The check box was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44601.8631372685"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage195_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963501389"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage195.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9483333333"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243290468523212.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="date" type="D" value="44601.8630195486"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage193_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963387153"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage193.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9479166667"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-24332585952324.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 0 was selected."/>
+			<Prp name="date" type="D" value="44601.8630075463"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="52"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964511111"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage209.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="date" type="D" value="44601.8631202778"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{A088F13B-F5E7-4D2E-8AF7-978A2947AFAF}&quot;&gt; Click here to show or modify data of the checkpoint &quot;BAFF_Unks_Ctrls_After&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;BAFF_Unks_Ctrls_After&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8631351505"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="picture" type="S" value="Picture95.png;Picture96.png"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage205_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1841"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964062847"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowControls"/>
+					<Prp name="image file name" type="S" value="visImage205.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="714"/>
+					<Prp name="click point x" type="I" value="1792"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1744"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1841"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9499768519"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.CheckboxShowControls"/>
+					<Prp name="image file name" type="S" value="tcvi-243148421523240.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="715"/>
+					<Prp name="click point x" type="I" value="1754"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1744"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowControls&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;GraphSettingsView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;CheckBox&quot;, &quot;Show Controls&quot;, 2))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The check box was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44601.863074838"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{86118A2B-906C-4E0D-BA2D-D7022C9C291F}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL2_before&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL2_before&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630232755"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="picture" type="S" value="Picture81.png;Picture82.png"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage198_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1712"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.196368287"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowUnknowns"/>
+					<Prp name="image file name" type="S" value="visImage198.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="714"/>
+					<Prp name="click point x" type="I" value="1658"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1604"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1712"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9488888889"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.CheckboxShowUnknowns"/>
+					<Prp name="image file name" type="S" value="tcvi-243241765523220.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="711"/>
+					<Prp name="click point x" type="I" value="1611"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1604"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowUnknowns&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;GraphSettingsView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;CheckBox&quot;, &quot;Show Unknowns&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The check box was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44601.8630367824"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage202_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963880556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage202.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9493055556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243206343523233.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="date" type="D" value="44601.8630571875"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="59"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage213_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1841"/>
+					<Prp name="line #" type="I" value="59"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964714699"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowControls"/>
+					<Prp name="image file name" type="S" value="visImage213.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="714"/>
+					<Prp name="click point x" type="I" value="1792"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1744"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="722"/>
+					<Prp name="object top" type="I" value="706"/>
+					<Prp name="object right" type="I" value="1841"/>
+					<Prp name="line #" type="I" value="59"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9509375"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.CheckboxShowControls"/>
+					<Prp name="image file name" type="S" value="tcvi-243065281523259.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="711"/>
+					<Prp name="click point x" type="I" value="1759"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1744"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'unchecked'.&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.CheckboxShowControls&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;GraphSettingsView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;CheckBox&quot;, &quot;Show Controls&quot;, 2))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The check box was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44601.8631397917"/>
+			<Prp name="line no" type="I" value="59"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{416236DC-E622-42FF-BCE8-8FE60649E2BE}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL3_before&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL3_before&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630344329"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value="Picture83.png;Picture84.png"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage217_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964922801"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage217.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9516898148"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243000593523268.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="date" type="D" value="44601.8631615741"/>
+			<Prp name="line no" type="I" value="65"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="62"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage215_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="62"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1964819213"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage215.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="62"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.951400463"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243025578523263.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 1 was selected."/>
+			<Prp name="date" type="D" value="44601.8631508449"/>
+			<Prp name="line no" type="I" value="62"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="No more run file from Run Control View"/>
+			<Prp name="date" type="D" value="44601.8629653009"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="166"/>
+					<Prp name="object top" type="I" value="150"/>
+					<Prp name="object right" type="I" value="144"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1962941898"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.RunTreeView.TreeViewItem.DeleteButton"/>
+					<Prp name="image file name" type="S" value="visImage188.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="158"/>
+					<Prp name="click point x" type="I" value="136"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="128"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.RunTreeView.TreeViewItem.DeleteButton&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RunMenuView&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;RunTreeView&quot;).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;❌&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44601.8629646991"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{7753FB5F-FE01-41D3-861C-319A51DE3EF2}&quot;&gt; Click here to show or modify data of the checkpoint &quot;BAFF_before&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;BAFF_before&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630116204"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="picture" type="S" value="Picture79.png;Picture80.png"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="127"/>
+					<Prp name="object top" type="I" value="101"/>
+					<Prp name="object right" type="I" value="67"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963000579"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.LoadButton"/>
+					<Prp name="image file name" type="S" value="visImage189.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="114"/>
+					<Prp name="click point x" type="I" value="41"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="16"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.LoadButton&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RunMenuView&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 3))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44601.8629687384"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{D51F4F65-3290-4CD0-AA20-89BFA86D02EE}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL3_Unks_Ctrls_After&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL3_Unks_Ctrls_After&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630781944"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="picture" type="S" value="Picture91.png;Picture92.png"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="540"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object right" type="I" value="960"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963060648"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.dlgOpen"/>
+					<Prp name="image file name" type="S" value="visImage191.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="The file 'C:\Quantist\SQA-Quantist\Test_Data\SampleQuantistFiles\Standard-Control-Unknown_Xponent.csv' was opened as a 'Consumable Files (*.csv;*.quantist)' file.&#xA;&#xA;&#xA;Tested object:&#xA;Aliases.Quantist.dlgOpen&#xA;(Sys.Process(&quot;Quantist&quot;).Window(&quot;#32770&quot;, &quot;Open&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The file 'Standard-Control-Unknown_Xponent.csv' was selected in the Open dialog."/>
+			<Prp name="date" type="D" value="44601.8629764699"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{6962B290-2E73-4433-80EA-49EC52095861}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL3_Unks_after&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL3_Unks_after&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8630724653"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value="Picture89.png;Picture90.png"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage204_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44602.1963996065"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox"/>
+					<Prp name="image file name" type="S" value="visImage204.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="object right" type="I" value="1885"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44544.9496643519"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.Quantist.MainWindowView.ScrollViewer.ComboBox"/>
+					<Prp name="image file name" type="S" value="tcvi-243175312523238.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="1643"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Quantist.MainWindowView.MainView.CurvePanel.AnalyteBox&#xA;(Sys.Process(&quot;Quantist&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;).WPFObject(&quot;MainWindow&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentListView&quot;, &quot;&quot;, 1).WPFObject(&quot;DynamicGridControl&quot;, &quot;&quot;, 1).WPFObject(&quot;CurveBuilderViewModel_cc52e9f256e246dab4ea69ce65c88a8d&quot;).WPFObject(&quot;userControl&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;AnalyteSelectorView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 2 was selected."/>
+			<Prp name="date" type="D" value="44601.8630687732"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{86118A2B-906C-4E0D-BA2D-D7022C9C291F}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CCL2_before&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CCL2_before&quot; passed."/>
+			<Prp name="date" type="D" value="44601.8631539931"/>
+			<Prp name="line no" type="I" value="63"/>
+			<Prp name="picture" type="S" value="Picture99.png;Picture100.png"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

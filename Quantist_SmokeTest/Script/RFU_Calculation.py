@@ -107,3 +107,10 @@ if __name__ == '__main__':
     main()
 
 
+def Test1():
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.MainView.PART_Content, "Enabled", cmpEqual, True)
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.MainView.PART_Content, "Text", cmpEqual, "Well")
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.MainView.PART_Content2, "Enabled", cmpEqual, True)
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.MainView.PART_Content2, "Text", cmpEqual, "Sample")
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.MainView.PART_Content3, "Enabled", cmpEqual, True)
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.MainView.PART_Content3, "Text", cmpEqual, "Use")

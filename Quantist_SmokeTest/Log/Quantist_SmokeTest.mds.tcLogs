@@ -23,29 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44518.6393484028"/>
+				<Prp name="datetime" type="D" value="44601.8359206829"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{54F53CD8-7CAB-4E86-BC45-970C7C7EBCE3}"/>
+				<Prp name="key" type="S" value="{8BA5B4E4-256D-4E77-BC64-BB8978A3FCEE}"/>
 				<Prp name="nameofroot" type="S" value="Quantist_1000_SmokeTest"/>
-				<Prp name="relpath" type="S" value="11_18_2021_3_20 PM_39_702\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44518.648397662"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{848C8E42-C654-433D-BFA8-56492BD9C4A5}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Quantist_Curve_Display\Curve_Analytes]"/>
-				<Prp name="relpath" type="S" value="11_18_2021_3_33 PM_41_558\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44518.6501449306"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C93C573E-D45E-4B09-8115-10FE0FD00E21}"/>
-				<Prp name="nameofroot" type="S" value="Quantist_1000_SmokeTest"/>
-				<Prp name="relpath" type="S" value="11_18_2021_3_36 PM_12_522\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="2_9_2022_8_03 PM_43_547\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

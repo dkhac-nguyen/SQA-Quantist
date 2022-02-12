@@ -1,3 +1,16 @@
 ﻿def Close():
-  Aliases.Quantist_WPF.HwndSource_MainWindowView.Close()
+  #Aliases.Quantist.Close()
+  main = Aliases.Quantist.MainWindowView
+  main.Close()
+  main.MainViewRunCtr.ButtonCancel.ClickButton()
+
+  aqUtils.Delay(ProjectSuite.Variables.Short_Delay)    
+
+  main.Close()
+  main.MainViewRunCtr.ButtonCancel.ClickButton()
+  Aliases.Quantist.MainWindowView.MaxButtonOk.ClickButton()
+    
   #BuiltIn.ShowMessage("Closing Quantist...")
+
+
+

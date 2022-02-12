@@ -209,3 +209,19 @@ def Curve_Analytes_bk():
   
   
   
+
+def Test6():
+  border = Aliases.Quantist.MainWindowView.Viewer
+  border.GridSplitter2.Drag(962, 0, -47, -495)
+  scrollViewer = border.ScrollViewer
+  scrollViewer.ButtonCollapseAll.ClickButton()
+  scrollViewer.ButtonExpandAll.ClickButton()
+  treeListView = border.ztreeListView1
+  treeListView.RowMarginControl.Click(12, 8)
+  aqObject.CheckProperty(Aliases.Quantist.MainWindowView.Viewer.ztreeListView1.InplaceBaseEdit, "DisplayText", cmpEqual, "Background0")
+  rowMarginControl = treeListView.RowMarginControl2
+  rowMarginControl.Click(13, 10)
+  treeListView.InplaceBaseEdit2.Click(32, 9)
+  treeListView.InplaceBaseEdit3.Click(34, 13)
+  rowMarginControl.Click(9, 9)
+

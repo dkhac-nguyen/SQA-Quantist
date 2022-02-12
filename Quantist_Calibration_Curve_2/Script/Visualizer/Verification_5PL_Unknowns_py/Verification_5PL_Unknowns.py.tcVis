@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{1C78F1EB-523D-453F-B0B7-F62E598B777F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="34" kind="0" dateTime="44597.185150463" objectName="Aliases.Quantist.MainApp.MainWindow.GridData.row_1" objectLeft="331" objectTop="779" objectRight="352" objectBottom="801" clickPointX="340" clickPointY="787" imageFileName="tcvi165083796628810.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="41" kind="0" dateTime="44597.1853703704" objectName="Aliases.Quantist.MainApp.MainWindow.GridData.row_1" objectLeft="331" objectTop="779" objectRight="352" objectBottom="801" clickPointX="339" clickPointY="790" imageFileName="tcvi165103000628815.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="61" kind="0" dateTime="44597.1854513889" objectName="Aliases.Quantist.MainApp.MainWindow.GridData.RowMarginControl2" objectLeft="331" objectTop="863" objectRight="352" objectBottom="885" clickPointX="337" clickPointY="876" imageFileName="tcvi165110187628825.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

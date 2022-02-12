@@ -224,3 +224,6 @@ def Test6():
   treeListView.InplaceBaseEdit2.Click(32, 9)
   treeListView.InplaceBaseEdit3.Click(34, 13)
   rowMarginControl.Click(9, 9)
+
+def Test7():
+  pass

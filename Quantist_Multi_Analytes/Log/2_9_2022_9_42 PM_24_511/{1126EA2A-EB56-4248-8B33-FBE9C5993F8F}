@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44601.9054944444"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{65F161BD-D1CF-4302-AD02-6DE5169C82AB}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="SQA_MA_All_Curve_Data [Script\MA_Curve_Data - MA_All_Curve_Data]"/>
+				<Prp name="end time" type="D" value="44601.9070582639"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44601.9044518518"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{A7ECF274-0BF6-4E63-8267-75DD5A995C31}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="SQA_MA_Remove_Outliers [Script\MA_Remove_Outliers - MA_Remove_Outliers]"/>
+				<Prp name="end time" type="D" value="44601.9048944213"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44601.9048945255"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{07AC2E28-CC64-4FC6-982E-A51798F190B4}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="SQA_MA_Selected Field [Script\MA_Selected_Field - MA_Selected_Field]"/>
+				<Prp name="end time" type="D" value="44601.9054944097"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

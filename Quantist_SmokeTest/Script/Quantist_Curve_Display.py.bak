@@ -1,6 +1,6 @@
 ﻿import Quantist_Removing_Files
 
-def Curve_Analytes(): 
+def Analytes_Curve_plot(): 
   
   treeView = Aliases.Quantist.MainWindowView.RunTreeView
   if not (treeView.HasItems): 
@@ -141,34 +141,5 @@ def Log_Bold_Message(error_message):
    MsgAttr.Bold = True
 
    Log.Message(error_message, "", pmHigher, MsgAttr)    
-   
 
 
-def Test1():
-  Regions.CurveData_B7_H1_5PL_None_60_140.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-  Aliases.Quantist.MainWindowView.MainView.RecoveryRangeBox.ClickItem("From90To110")
-  Regions.CurveData_B7_H1_5PL_None_90_110.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-
-
-def Test2():
-  border = Aliases.Quantist.MainWindowView.MainView
-  border.CurveWeightingBox.ClickItem("None")
-  border.RecoveryRangeBox.ClickItem("From60To140")
-  Regions.CD40_4PL_None_60_140.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_None_60_140.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-  Regions.CD40_4PL_1Y_70_130.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_1Y_70_130.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-  Regions.CD40_4PL_1Y_80_120.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_1Y_80_120.Check(Aliases.Quantist.MainWindowView.MainView.ScrollViewer)
-  Regions.CD40_4PL_1Ysq_90_110.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_1Ysq_90_110.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-
-def Test3():
-  Regions.CD40_4PL_None_60_140_2.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_None_60_140_2.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-  Regions.CD40_4PL_1Y_70_130_2.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_1Y_70_130_2.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-  Regions.CD40_4PL_None_80_120.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_None_80_120.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)
-  Regions.CD40_4PL_1Ysq_90_110_2.Check(Aliases.Quantist.MainWindowView.MainView.zchart)
-  Regions.CurveData_CD40_4PL_1Ysq_90_110_2.Check(Aliases.Quantist.MainWindowView.MainView.CurrentCurveData)

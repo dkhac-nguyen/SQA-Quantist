@@ -1,0 +1,49 @@
+Sample	Use	Well(s)	MFI	MFI CV%	Net MFI	Conc.	Status	Conc. CV%	Exp Conc.	% Recovery	DF	n	Included
+Background0	Blank	A1	15.00		0.00								Checked
+Background0	Blank	A2	15.00		0.00								Checked
+Standard1	Standard	B1	6654.00		6639.00	57893.42	>ULOQ		46670.00	124.05			Checked
+Standard1	Standard	B2	6291.00		6276.00	51348.04	>ULOQ		46670.00	110.02			Checked
+Standard2	Standard	C1	3097.50		3082.50	15495.07			15556.67	99.60			Checked
+Standard2	Standard	C2	2960.00		2945.00	14518.36			15556.67	93.33			Checked
+Standard3	Standard	D1	1307.50		1292.50	4978.06			5185.56	96.00			Checked
+Standard3	Standard	D2	1246.50		1231.50	4693.90			5185.56	90.52			Checked
+Standard4	Standard	E1	562.00		547.00	1807.35			1728.52	104.56			Checked
+Standard4	Standard	E2	522.00		507.00	1656.36			1728.52	95.83			Checked
+Standard5	Standard	F1	221.00		206.00	594.25			576.17	103.14			Checked
+Standard5	Standard	F2	210.00		195.00	558.34			576.17	96.90			Checked
+Standard6	Standard	G1	97.00		82.00	206.59			192.06	107.56			Checked
+Standard6	Standard	G2	94.00		79.00	197.79			192.06	102.98			Checked
+Standard7	Standard	H1	47.00		32.00	65.81			64.02	102.80			Checked
+Standard7	Standard	H2	45.00		30.00	60.53	<LLOQ		64.02	94.54			Checked
+Unknown1	Unknown	A3	91.00		76.00	189.02							Checked
+Unknown1	Unknown	A5	15.00		0.00	0.00	<LLOQ						Checked
+Unknown10	Unknown	B4	2161.00		2146.00	9435.43							Checked
+Unknown10	Unknown	B6	6358.00		6343.00	52500.70	>ULOQ						Checked
+Unknown11	Unknown	C4	172.00		157.00	436.31							Checked
+Unknown11	Unknown	C6	3093.50		3078.50	15466.19							Checked
+Unknown12	Unknown	D4	21.00		6.00	2.09	<LLOQ						Checked
+Unknown12	Unknown	D6	1316.00		1301.00	5018.01							Checked
+Unknown13	Unknown	E4	88.00		73.00	180.29							Checked
+Unknown13	Unknown	E6	526.50		511.50	1673.24							Checked
+Unknown14	Unknown	F4	2099.50		2084.50	9082.75							Checked
+Unknown14	Unknown	F6	213.00		198.00	568.11							Checked
+Unknown15	Unknown	G4	172.00		157.00	436.31							Checked
+Unknown15	Unknown	G6	92.00		77.00	191.94							Checked
+Unknown16	Unknown	H4	19.00		4.00	0.00	<LLOQ						Checked
+Unknown16	Unknown	H6	44.00		29.00	57.90	<LLOQ						Checked
+Unknown2	Unknown	B3	2108.00		2093.00	9131.18							Checked
+Unknown2	Unknown	B5	6250.00		6235.00	50654.37	>ULOQ						Checked
+Unknown3	Unknown	C3	175.00		160.00	445.82							Checked
+Unknown3	Unknown	C5	3023.00		3008.00	14961.86							Checked
+Unknown4	Unknown	D3	19.00		4.00	0.00	<LLOQ						Checked
+Unknown4	Unknown	D5	1327.00		1312.00	5069.84							Checked
+Unknown5	Unknown	E3	92.00		77.00	191.94							Checked
+Unknown5	Unknown	E5	536.00		521.00	1708.96							Checked
+Unknown6	Unknown	F3	2131.50		2116.50	9265.61							Checked
+Unknown6	Unknown	F5	227.00		212.00	613.94							Checked
+Unknown7	Unknown	G3	168.00		153.00	423.66							Checked
+Unknown7	Unknown	G5	95.00		80.00	200.72							Checked
+Unknown8	Unknown	H3	20.00		5.00	0.23	<LLOQ						Checked
+Unknown8	Unknown	H5	43.00		28.00	55.29	<LLOQ						Checked
+Unknown9	Unknown	A4	93.00		78.00	194.86							Checked
+Unknown9	Unknown	A6	14.50		-0.50	0.00	<LLOQ						Checked

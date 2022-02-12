@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="Script" key="{CF66B9ED-AEC3-45BE-B3F8-F4F7EE511496}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{54E93078-07A7-43A5-826E-9E8CF0DA2552}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
@@ -10,7 +10,7 @@
 	</testItems>
 	<variables key="{7210E950-EC89-4CC0-A856-5C60A699BFBB}" />
 	<settings key="{8FB0A85A-E135-4A2C-9D2B-9887AD9077FB}">
-		<settingsVersion value="14.93" />
+		<settingsVersion value="15.20" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

@@ -1,3 +1,2 @@
 ﻿def Wells_A_B_Selected_Standard():
-  LLCollection1.Wells_A_B_Selected_Standard.Execute(NameMapping.Sys.Quantist.HwndSource_MainWindowView2.MainWindowView.DockPanel.Grid.Border2.ContentControl.ContentListView.DynamicGridControl.WellAssignmentsViewModel_af21aa09c2d844d199e7e61d8427c074.WellAssignmentsView.Grid.PlatesViewScrollViewer)
-  Regions.Wells_A_B_Selected_Standard.Check(NameMapping.Sys.Quantist.HwndSource_MainWindowView2.MainWindowView.DockPanel.Grid.Border2.ContentControl.ContentListView.DynamicGridControl.WellAssignmentsViewModel_af21aa09c2d844d199e7e61d8427c074.WellAssignmentsView.Grid.PlatesViewScrollViewer.ItemsControl.ContentPresenter.Plate96WellView.Border)
+  pass    

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{1E8BB097-D155-4D5E-8E4E-46803FC70B84}" />
+	<data key="{4B57AFF9-C1F1-42E0-90C3-6DF0B1C8623B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="47" kind="0" dateTime="44545.038287037" objectName="Aliases.Quantist.MainWindowView.Menu" objectLeft="7" objectTop="30" objectRight="1914" objectBottom="59" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-23551800022683.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="48" kind="0" dateTime="44545.0383333333" objectName="Aliases.Quantist.dlgOpen" objectLeft="695" objectTop="534" objectRight="783" objectBottom="560" clickPointX="741" clickPointY="548" imageFileName="tcvi-23551421822688.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="52" kind="0" dateTime="44602.2128819444" objectName="Aliases.Quantist.MainWindowView.LoadButton" objectLeft="16" objectTop="101" objectRight="67" objectBottom="127" clickPointX="44" clickPointY="112" imageFileName="tcvi77992248437640.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="53" kind="0" dateTime="44602.2129513889" objectName="Aliases.Quantist.dlgOpen" objectLeft="0" objectTop="0" objectRight="960" objectBottom="540" clickPointX="517" clickPointY="25" imageFileName="tcvi77992832837642.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="56" kind="0" dateTime="44602.2152777778" objectName="Aliases.Quantist.MainWindowView.Menu" objectLeft="7" objectTop="30" objectRight="1914" objectBottom="59" clickPointX="-1" clickPointY="-1" imageFileName="tcvi78012940637643.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

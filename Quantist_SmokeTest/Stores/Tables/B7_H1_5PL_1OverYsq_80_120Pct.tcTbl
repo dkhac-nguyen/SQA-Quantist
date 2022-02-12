@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="14.0">
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
 	<Table Name="B7_H1_5PL_1OverYsq_80_120Pct">
-		<Source Object="Aliases.Quantist.MainWindowView.Viewer.ScrollViewer.CurrentCurveData">
+		<Source Object="Aliases.Quantist_Old.MainWindowView.Viewer.ScrollViewer.CurrentCurveData">
 			<DataExtraction Type="OpticalTableRecognition" DetectionMode="Automatic" SelectionPreference="NearestToCenter" HasHeader="True" />
 		</Source>
 		<Columns>
