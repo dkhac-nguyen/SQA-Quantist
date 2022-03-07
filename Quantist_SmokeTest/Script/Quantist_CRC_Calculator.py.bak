@@ -64,4 +64,3 @@ def CRC_Calculator():
   scrollViewer.ExpanderWarningErrors.Expand()
   Regions.WarningErrors.Check(Aliases.Quantist.MainWindowView.MainView.CurvePanel.ExpanderWarningErrors, False, False, 25280, 17)
 
-

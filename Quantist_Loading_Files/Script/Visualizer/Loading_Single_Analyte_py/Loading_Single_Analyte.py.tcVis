@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6E77A8DA-7270-4329-8955-A2FEE902FE47}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="40" kind="0" dateTime="44615.0165162037" objectName="Aliases.Quantist.MainWindowView.MainView.CurvePanel.ConfigureCurve.CurveFitBox" objectLeft="1692" objectTop="168" objectRight="1804" objectBottom="191" clickPointX="-1" clickPointY="-1" imageFileName="tcvi101574887581841.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="43" kind="0" dateTime="44615.037662037" objectName="Aliases.Quantist.MainWindowView.MainView.CurvePanel.ConfigureCurve.CurveFitBox" objectLeft="1692" objectTop="168" objectRight="1804" objectBottom="191" clickPointX="-1" clickPointY="-1" imageFileName="tcvi101757606281841.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -56,3 +56,5 @@ def Alternate():
       print("Something went wrong")
     finally:  # The finally block, if specified, will be executed regardless if the try block raises an error or not.
       print("The 'try except' is finished")
+
+

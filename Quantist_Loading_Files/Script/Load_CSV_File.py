@@ -1,13 +1,20 @@
 ﻿def Import_Data_File(varDir, varFileName):
   
   try:
+    aqUtils.Delay(ProjectSuite.Variables.Short_Delay)
+
+    #main = Aliases.Quantist.MainWindowView
+    #menu = main.Menu
+    #quantist.MainWindowView.Menu.WPFMenu.Click("File|Open Runs")
+    #menu.WPFMenu.Click("File|Open Runs")
+
     quantist = Aliases.Quantist
-    quantist.MainWindowView.Menu.WPFMenu.Click("File|Import Data Files")
+    quantist.MainWindowView.LoadButton.ClickButton()
     aqUtils.Delay(ProjectSuite.Variables.Short_Delay)    
-    file = varDir + varFileName #+ "Consumable Files (*.csv;*.quantist)"
+    file = varDir + varFileName 
     
     dlgOpen = quantist.dlgOpen
-    quantist.dlgOpen.OpenFile(file, "Consumable Files (*.csv;*.quantist)")    
+    quantist.dlgOpen.OpenFile(file, "Supported Files (*csv;*.quantist)")
 
   except ValueError as Error:
     Log.Warning("Can not load run file to Run Control View {Error}")
@@ -25,7 +32,7 @@ def Loading_File():
     mainWindowView = quantist.MainWindowView
     gridSplitter = mainWindowView.GridSplitter
     mainWindowView.Button.ClickButton()
-    quantist.dlgOpen.OpenFile(ProjectSuite.Variables.SampleDataFolder + ProjectSuite.Variables.sample_csv_pm8800, "Consumable Files (*.csv;*.quantist)")
+    quantist.dlgOpen.OpenFile(ProjectSuite.Variables.SampleDataFolder + ProjectSuite.Variables.sample_csv_pm8800, "Supported Files (*csv;*.quantist)")
     aqUtils.Delay(ProjectSuite.Variables.Short_Delay)
     
     #f = open('myfile.txt')
@@ -38,20 +45,8 @@ def Loading_File():
   except BaseException as err:
     print(f"Unexpected {err=}, {type(err)=}")
     raise
-    
-def test():
-  Import_Data_File(Project.Variables.Sample_Files_Dir, Project.Variables.Sample_FileName)
-  
 
 def Test1():
-  quantist_Wpf = Aliases.Quantist
-  quantist_Wpf.MainWindowView.Menu.WPFMenu.Click("File|Import Data Files")
-  quantist_Wpf.dlgOpen.OpenFile("C:\\Quantist\\SQA-Quantist\\Test_Data\\SampleQuantistFiles\\TestData.csv", "Consumable Files (*.csv;*.quantist)")
-
-def Test2():
   quantist = Aliases.Quantist
   quantist.MainWindowView.LoadButton.ClickButton()
-  quantist.dlgOpen.Drag(517, 25, 34, 66)
-
-def Test3():
-  Aliases.Quantist.MainWindowView.Menu.WPFMenu.Click("File|Import Data Files")
+  quantist.dlgOpen.btnCancel.Drag(31, 16, -6, -3)

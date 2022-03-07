@@ -2,7 +2,7 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{8A844982-A8CC-4E21-8FF0-3257FB4133C6}">
 	<children>
 		<child name="Quantist_SmokeTest" key="{1980E724-E6B9-449A-8112-F3A23F18711B}" path="Quantist_SmokeTest\Quantist_SmokeTest.mds" />
-		<child name="Quantist_Import_CSV_Files" key="{700570DB-E507-4320-AA17-6D7068AB22D0}" path="Quantist_Import_CSV_Files\Quantist_Import_CSV_Files.mds" />
+		<child name="Quantist_Import_Data_Files" key="{700570DB-E507-4320-AA17-6D7068AB22D0}" path="Quantist_Import_CSV_Files\Quantist_Import_Data_Files.mds" />
 		<child name="Quantist_Calibration_Curves" key="{87ECD5D2-E7C6-4781-8725-12953827FACF}" path="Quantist_Curves\Quantist_Calibration_Curves.mds" />
 		<child name="Quantist_Results" key="{D195603E-77FB-49AE-A159-67293441391F}" path="Quantist_Results\Quantist_Results.mds" />
 		<child name="Quantist_Well_Assignments" key="{30FD7668-4E9E-408F-A560-1FE37A818FE7}" path="Quantist_Well_Assignments\Quantist_Well_Assignments.mds" />
@@ -70,6 +70,27 @@
 				</Variable>
 				<Variable Name="WellAssignmentsFolder" Type="String" Local="False">
 					<DefValue StrValue="C:\Quantist\SQA-Quantist\Test_Data\SampleQuantistFiles\WellAssignments\" />
+				</Variable>
+				<Variable Name="sample_csv_not_support_region" Type="String" Local="False">
+					<DefValue StrValue="NonSupportingRegion.csv" />
+				</Variable>
+				<Variable Name="SampleInvalidCSVFolder" Type="String" Local="False">
+					<DefValue StrValue="C:\Quantist\SQA-Quantist\Test_Data\SampleQuantistFiles\Invalid_CSV_files\" />
+				</Variable>
+				<Variable Name="sample_csv_single_analyte" Type="String" Local="False">
+					<DefValue StrValue="OneAnalyte.csv" />
+				</Variable>
+				<Variable Name="SampleSingleAnalyteFolder" Type="String" Local="False">
+					<DefValue StrValue="C:\Quantist\SQA-Quantist\Test_Data\SampleQuantistFiles\SingleAnalyteRunFile\" />
+				</Variable>
+				<Variable Name="Sample67FilesFolder" Type="String" Local="False">
+					<DefValue StrValue="C:\Quantist\SQA-Quantist\Test_Data\67 files\" />
+				</Variable>
+				<Variable Name="sample_csv_mod_metadata" Type="String" Local="False">
+					<DefValue StrValue="MetaData-Mod.csv" />
+				</Variable>
+				<Variable Name="sample_csv_silent_failed" Type="String" Local="False">
+					<DefValue StrValue="Silent_Failed.csv" />
 				</Variable>
 			</Items>
 		</data>

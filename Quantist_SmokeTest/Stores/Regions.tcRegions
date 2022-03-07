@@ -331,5 +331,8 @@
 		<child name="PlateAssignmentGroupsDataGrid" key="{B3E9A879-2385-44C0-9F51-4702F27DC3A6}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="PlateAssignmentGroupsDataGrid" ID="{B3E9A879-2385-44C0-9F51-4702F27DC3A6}" FileName="Regions\PlateAssignmentGroupsDataGrid.png" Update="False" />
 		</child>
+		<child name="QuantistSplashView" key="{0003C130-6EA2-4262-A02A-9AA9B1575C0D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="QuantistSplashView" ID="{0003C130-6EA2-4262-A02A-9AA9B1575C0D}" FileName="Regions\QuantistSplashView.png" Update="False" />
+		</child>
 	</children>
 </Root>

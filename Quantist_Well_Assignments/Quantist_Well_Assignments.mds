@@ -5,14 +5,32 @@
 		<child name="KeywordTests" key="{5B444E28-1BA2-4445-AA74-B4DD9700513B}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="Wells_A_B_Selected_Standard" key="{B9335034-F949-4434-98DF-5C8B78F8E4A7}" type="Low-Level Procedures Collection" typeId="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" pluginName="Low-Level Procedures Container" path="Wells_A_B_Selected_Standard\Wells_A_B_Selected_Standard.tcLLC" />
 		<child name="NameMapping" key="{6B6A6777-8A30-45C5-9029-05A4CE76A731}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Stores" key="{5B60CB68-473A-4F2B-A19B-E2D07412982F}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{B767FF9A-BC1A-43AA-AB6D-CE596AA98A33}" version="14">
-		<children />
+		<children>
+			<testItem name="Quantist_SQA_Well_Assignments" key="{2EE12CB3-72B5-49EC-A80E-E443D1346BBA}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children>
+					<testItem name="WA_Layout_Basis" key="{08D77412-CB3B-496F-8010-2684A43350DC}" group="False" parallel="False" enabled="True" testMoniker="{4133724D-1784-4557-A3A2-5CA236277AC9}Wells_Layout" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="WA_2_Plates_Layout" key="{9EA4EDAB-18A0-4524-B5E1-50B8BD05CDAF}" group="False" parallel="False" enabled="True" testMoniker="{315FB888-C2F8-4997-881D-331ADE272A0B}Wells_Multi_Plates_Layout" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{3E08404C-F635-49A2-9EA6-15180C0E589C}" />
 	<settings key="{60E2F6A4-ACC7-403B-A2A2-A269DFCB1F54}">
-		<settingsVersion value="15.30" />
+		<settingsVersion value="15.31" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -586,8 +604,8 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="Zephyr for Jira Server" />
-				<row val0="Zephyr for Jira Cloud" />
+				<row val0="Zephyr Squad Server" />
+				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
 		<setting name="ZFJ_JiraLogin" type="5" value="" />

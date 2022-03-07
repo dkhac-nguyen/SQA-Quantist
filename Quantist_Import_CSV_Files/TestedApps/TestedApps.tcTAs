@@ -7,10 +7,10 @@
 		<child key="{30ABFFD3-E89F-4221-9033-EA24D08B29D4}">
 			<config nodeName="Quantist" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="E:\0.0.0.1-x64" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="E:\0.0.0.1-x64" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="E:\0.0.0.1-x64" />
-					<param name="Simple" fileName="Quantist.Wpf.exe" filePath="E:\0.0.0.1-x64\" parameters="" workFolder="E:\0.0.0.1-x64" />
+					<param name="RunAs" parameters="" workFolder="E:\0.9.0.0-x64\" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="E:\0.9.0.0-x64\" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="E:\0.9.0.0-x64\" />
+					<param name="Simple" fileName="Quantist.exe" filePath="E:\0.9.0.0-x64\" parameters="" workFolder="E:\0.9.0.0-x64\" />
 				</runModeParams>
 			</config>
 			<testData />

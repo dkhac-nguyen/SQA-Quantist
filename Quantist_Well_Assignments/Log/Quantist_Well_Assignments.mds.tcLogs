@@ -20,7 +20,80 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44621.4534700116"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0C36E53D-697B-4343-BB7E-D63B80793B5D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Wells_Layout_Basis\Wells_Layout]"/>
+				<Prp name="relpath" type="S" value="3_1_2022_10_52 AM_59_809\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44621.4538716204"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B582A425-B0CF-4FE7-A89B-5CC03818FAF7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Wells_Layout_Basis\Wells_Layout]"/>
+				<Prp name="relpath" type="S" value="3_1_2022_10_53 AM_34_509\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44621.4747425347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AD39338F-A81A-42D5-A2C7-A05DD11DCFD0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [WA_Multi_Plates_Layout\Wells_Multi_Plates_Layout]"/>
+				<Prp name="relpath" type="S" value="3_1_2022_11_23 AM_37_755\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44621.4766133333"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1E09CEA0-F6B8-496C-954C-FD6C2B6A4654}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Well_Assignments"/>
+				<Prp name="relpath" type="S" value="3_1_2022_11_26 AM_19_392\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44621.601905787"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9F250F00-219E-4589-AA6E-0C2482DCAD06}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Well_Assignments"/>
+				<Prp name="relpath" type="S" value="3_1_2022_2_26 PM_44_661\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44622.7807346991"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CC3D9785-6F37-4087-B711-8618F703644A}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Well_Assignments"/>
+				<Prp name="relpath" type="S" value="3_2_2022_6_44 PM_15_478\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44622.7853971991"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{44F99958-CAE9-4CFD-B2D9-58ED28051662}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Well_Assignments"/>
+				<Prp name="relpath" type="S" value="3_2_2022_6_50 PM_58_318\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44622.7869171065"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{82149B77-089E-4CD5-AF9C-2AE31D0E01FB}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Well_Assignments"/>
+				<Prp name="relpath" type="S" value="3_2_2022_6_53 PM_09_638\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

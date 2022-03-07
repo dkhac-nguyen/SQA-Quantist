@@ -30,6 +30,15 @@
 				<Prp name="relpath" type="S" value="2_9_2022_9_42 PM_24_511\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44614.9166780556"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0777C04A-509E-43AB-859A-502FE208602A}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_SQA_Multi_Analytes"/>
+				<Prp name="relpath" type="S" value="2_22_2022_10_00 PM_00_984\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

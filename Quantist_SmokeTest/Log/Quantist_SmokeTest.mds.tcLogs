@@ -30,6 +30,24 @@
 				<Prp name="relpath" type="S" value="2_9_2022_8_03 PM_43_547\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44614.80808125"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{135D2655-C1AD-499C-B005-559ECF2C1C1B}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_1000_SmokeTest"/>
+				<Prp name="relpath" type="S" value="2_22_2022_7_23 PM_38_220\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44614.8212328819"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FE00AAFA-8019-44D5-A9E8-FA710DFE5E9B}"/>
+				<Prp name="nameofroot" type="S" value="Quantist_1000_SmokeTest"/>
+				<Prp name="relpath" type="S" value="2_22_2022_7_42 PM_34_521\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

@@ -612,6 +612,44 @@
 																											</Property>
 																										</Properties>
 																									</Child>
+																									<Child Name="ButtonCopyToAll" Key="{8E7824CD-18B5-4FFD-B67A-5811DDEC8970}" ExtendedFind="True">
+																										<Image FileName="2064779818" Left="1813" Top="168" Right="1889" Bottom="189" />
+																										<TypeInfo Item0="{52424668-95AD-4326-8AFD-290FB617B938}" />
+																										<Properties>
+																											<Property Name="ClrFullClassName">
+																												<Value Value="System.Windows.Controls.Button" />
+																											</Property>
+																											<Property Name="WPFControlText">
+																												<Value Value="Copy to All" />
+																											</Property>
+																											<Property Name="WPFControlOrdinalNo">
+																												<Value Value="2" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="ComboBox" Key="{E2F4B971-E77C-453B-85EE-3B178E79415F}" ExtendedFind="True">
+																										<Image FileName="509828327" Left="1643" Top="83" Right="1885" Bottom="105" />
+																										<TypeInfo Item0="{AB16561B-6D74-44B2-8521-EBCA843C3FE7}" />
+																										<Properties>
+																											<Property Name="ClrFullClassName">
+																												<Value Value="System.Windows.Controls.ComboBox" />
+																											</Property>
+																											<Property Name="DisplayMemberPath">
+																												<Value Value="AnalyteName" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="ComboBox2" Key="{45C3A879-593B-428C-B607-4E70490CA349}" ExtendedFind="True">
+																										<Image FileName="-138085128" Left="1692" Top="168" Right="1804" Bottom="191" />
+																										<Properties>
+																											<Property Name="ClrFullClassName">
+																												<Value Value="System.Windows.Controls.ComboBox" />
+																											</Property>
+																											<Property Name="WPFControlOrdinalNo">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
 																								</Children>
 																							</Child>
 																						</Children>
@@ -677,11 +715,14 @@
 					<Child Name="Coeff_G" Owner="{7BE30CD2-E9B3-4611-AE81-F21B7DA83341}" />
 					<Child Name="RunTreeView" Owner="{66B15CE2-4B32-41A9-B346-33FEEAC0C80E}">
 						<Child Name="TreeViewItem" Owner="{F5F0BDFD-A1F2-455D-837D-BE9A9349B867}">
-							<Child Name="Button" Owner="{F525A2AE-CBA4-4D5E-B3A7-29F8247B72BB}" />
+							<Child Name="DeleteButton" Owner="{F525A2AE-CBA4-4D5E-B3A7-29F8247B72BB}" />
 						</Child>
 					</Child>
 					<Child Name="Button" Owner="{0071355A-8B9C-42B9-A84D-89EB15FF4D4C}" />
 					<Child Name="GridSplitter" Owner="{0DF4F041-674D-47FF-9135-BE0C0A4829A5}" />
+					<Child Name="ButtonCopyToAll" Owner="{8E7824CD-18B5-4FFD-B67A-5811DDEC8970}" />
+					<Child Name="AnalyteBox" Owner="{E2F4B971-E77C-453B-85EE-3B178E79415F}" />
+					<Child Name="CurveFit" Owner="{45C3A879-593B-428C-B607-4E70490CA349}" />
 				</Child>
 			</Child>
 			<Child Name="dlgOpen" Owner="{FA5D6B94-7EA1-4C1F-9CE6-1F5BA32F1722}" />

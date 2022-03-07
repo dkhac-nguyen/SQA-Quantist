@@ -2409,7 +2409,7 @@
 														<Value Value="System.Windows.Controls.TextBlock" />
 													</Property>
 													<Property Name="WPFControlText">
-														<Value Value="Release Version: 0.8.0.0" />
+														<Value Value="Release Version: 0.9.0.0" />
 													</Property>
 												</Properties>
 											</Child>
@@ -2850,6 +2850,17 @@
 																								<Value Value="Warning / Errors" />
 																							</Property>
 																						</Properties>
+																						<Children>
+																							<Child Name="Border" Key="{14F03AED-DA80-4BD2-BAC1-DB8154CC1489}" ExtendedFind="True">
+																								<Image FileName="-598102537" Left="347" Top="657" Right="1909" Bottom="880" />
+																								<TypeInfo Item0="{5DC10259-9985-4D76-94EC-6CA18C258C82}" />
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value Value="System.Windows.Controls.Border" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
 																					</Child>
 																				</Children>
 																			</Child>
@@ -2861,6 +2872,17 @@
 																						<Value Value="_treeListControl1" />
 																					</Property>
 																				</Properties>
+																				<Children>
+																					<Child Name="ztreeListView1" Key="{FF85B360-7772-4C22-A742-4ED2675E91D9}" ExtendedFind="True">
+																						<Image FileName="1484391074" Left="339" Top="766" Right="1576" Bottom="1039" />
+																						<TypeInfo Item0="{5DC10259-9985-4D76-94EC-6CA18C258C82}" />
+																						<Properties>
+																							<Property Name="WPFControlName">
+																								<Value Value="_treeListView1" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
 																			</Child>
 																			<Child Name="WellAssignmentsParentGrid" Key="{22D3A3AE-EC57-4280-B453-958A248A714C}" ExtendedFind="True">
 																				<Image FileName="-934087172" Left="338" Top="79" Right="1918" Bottom="1041" />
@@ -3106,6 +3128,14 @@
 																									</Property>
 																								</Properties>
 																							</Child>
+																							<Child Name="ZoomSlider" Key="{66AA2AF8-3929-4B52-B4EC-683AD651B241}" ExtendedFind="True">
+																								<TypeInfo Item0="{C2DF554E-4D91-44B0-8194-15317408C852}" />
+																								<Properties>
+																									<Property Name="WPFControlName">
+																										<Value Value="ZoomSlider" />
+																									</Property>
+																								</Properties>
+																							</Child>
 																						</Children>
 																					</Child>
 																				</Children>
@@ -3118,6 +3148,15 @@
 																					</Property>
 																					<Property Name="WPFControlText">
 																						<Value Value="" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="Grid" Key="{636756B5-CED8-4682-BEFE-F8BF200A29F8}" ExtendedFind="True">
+																				<Image FileName="-1714650517" Left="338" Top="79" Right="1918" Bottom="1041" />
+																				<TypeInfo Item0="{5DC10259-9985-4D76-94EC-6CA18C258C82}" />
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value Value="System.Windows.Controls.Grid" />
 																					</Property>
 																				</Properties>
 																			</Child>
@@ -3173,15 +3212,15 @@
 																	</Child>
 																</Children>
 															</Child>
-															<Child Name="TextblockReleaseVersion0800" Key="{CBB99E71-5A9B-45F6-88B0-54B2B6079776}" ExtendedFind="True">
-																<Image FileName="1997024867" Left="24" Top="1057" Right="150" Bottom="1078" />
+															<Child Name="TextblockReleaseVersion0900" Key="{69045B66-9DD3-4249-BB8D-FC5E81EA66E8}" ExtendedFind="True">
+																<Image FileName="-1672554794" Left="24" Top="1057" Right="150" Bottom="1078" />
 																<TypeInfo Item0="{5DC10259-9985-4D76-94EC-6CA18C258C82}" />
 																<Properties>
 																	<Property Name="ClrFullClassName">
 																		<Value Value="System.Windows.Controls.TextBlock" />
 																	</Property>
 																	<Property Name="WPFControlText">
-																		<Value Value="Release Version: 0.8.0.0" />
+																		<Value Value="Release Version: 0.9.0.0" />
 																	</Property>
 																</Properties>
 															</Child>
@@ -3208,6 +3247,15 @@
 															</Property>
 															<Property Name="WPFControlText">
 																<Value Value="Cancel" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="UserMessageBox" Key="{B1994280-7BEF-4E1F-8571-7924AAB934EA}" ExtendedFind="True">
+														<Image FileName="387896990" Left="831" Top="468" Right="1105" Bottom="651" />
+														<TypeInfo Item0="{5DC10259-9985-4D76-94EC-6CA18C258C82}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="UserMessageBox" />
 															</Property>
 														</Properties>
 													</Child>
@@ -3375,7 +3423,122 @@
 																					</Child>
 																				</Children>
 																			</Child>
+																			<Child Name="HMHMAG_with_Controls_csv" Key="{118F9818-0DDA-41C5-A004-79596378DAFB}">
+																				<Image FileName="-1354097304" Left="280" Top="135" Right="878" Bottom="157" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="HMHMAG_with_Controls_csv" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Name" Key="{CADCD61F-D8E9-4BE2-9451-EC17BDC82A3E}">
+																						<Image FileName="-1354097304" Left="302" Top="135" Right="538" Bottom="157" />
+																						<TypeInfo Item0="{AE3CCCF8-35F9-40EB-A517-C77E9E1C4B59}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIProperty" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="edit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Name" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="Plate_2_Panel_1_Acquisition_1_PlateRunResults_csv" Key="{7F869A86-1BEE-4325-8EAA-EE55508F96B1}">
+																				<Image FileName="-631386972" Left="280" Top="219" Right="878" Bottom="241" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Plate_2_Panel_1_Acquisition_1_PlateRunResults_csv" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Name" Key="{9D18CEC4-2439-485B-8C6A-08EE31C44561}">
+																						<Image FileName="-631386972" Left="302" Top="219" Right="538" Bottom="241" />
+																						<TypeInfo Item0="{AE3CCCF8-35F9-40EB-A517-C77E9E1C4B59}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIProperty" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="edit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Name" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
 																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="CtrlNotifySink2" Key="{CF7DAB97-770F-4A13-98E2-8CB7E867A1B2}">
+														<Image FileName="1374058186" Left="8" Top="104" Right="262" Bottom="482" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NamespaceTreeControl" Key="{BF342F6D-2874-40E0-A8E8-14D689B70255}" ExtendedFind="True">
+																<Image FileName="1374058186" Left="8" Top="104" Right="262" Bottom="482" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NamespaceTreeControl" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Namespace Tree Control" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="tvNamespaceTreeControl" Key="{FAFAADA8-4322-4DC4-9E82-0182D9CDCAEE}">
+																		<Image FileName="1374058186" Left="8" Top="104" Right="262" Bottom="482" />
+																		<TypeInfo Item0="{DBA71678-09B9-4FBC-B647-8F3EF62C8D50}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="SysTreeView32" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="Tree View" />
+																			</Property>
+																		</Properties>
 																	</Child>
 																</Children>
 															</Child>
@@ -3425,6 +3588,106 @@
 												<Value Value="&amp;Open" />
 											</Property>
 										</Properties>
+									</Child>
+									<Child Name="btnCancel" Key="{6DB6FEB3-B7F8-436D-996C-E35406A1FDFC}">
+										<Image FileName="-2043036453" Left="874" Top="520" Right="962" Bottom="546" />
+										<TypeInfo Item0="{2E1A247D-1F39-4DFE-932D-1E1C04E9739E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Cancel" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="WorkerW" Key="{1884A73E-4DBE-4292-952A-AE5CF5D103AB}">
+										<Image FileName="1151077862" Left="8" Top="31" Right="979" Bottom="73" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ReBarWindow32" Key="{9CCF3A2B-6495-4703-BA46-863ABAD1A4EA}">
+												<Image FileName="1151077862" Left="8" Top="31" Right="979" Bottom="73" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ReBarWindow32" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="AddressBandRoot" Key="{89F01F93-78F2-47EA-89BB-C967034370A3}">
+														<Image FileName="1151077862" Left="113" Top="31" Right="754" Bottom="70" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Address Band Root" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="progress" Key="{CB7E9148-BB52-4C9A-A4B4-7EE884F0821E}">
+																<Image FileName="1151077862" Left="115" Top="36" Right="752" Bottom="66" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="msctls_progress32" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="BreadcrumbParent" Key="{71015579-8529-486C-AB49-CC41E45F6DDC}">
+																		<Image FileName="1151077862" Left="115" Top="36" Right="686" Bottom="66" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Breadcrumb Parent" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="toolbar" Key="{84B7617E-779C-4DDF-861E-F5373945B37E}">
+																				<Image FileName="1151077862" Left="115" Top="36" Right="686" Bottom="66" />
+																				<TypeInfo Item0="{47A8D7C0-B9A4-480D-BE3A-B91772724E16}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="ToolbarWindow32" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="comboBox" Key="{06F09A19-7E35-4F33-ABC6-1E98CC48C077}">
+																		<Image FileName="-1463083328" Left="115" Top="36" Right="719" Bottom="66" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="ComboBoxEx32" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ComboBox" Key="{183BC1D9-2EDA-450D-B859-3A076962DBB2}">
+																				<Image FileName="-1463083328" Left="115" Top="36" Right="719" Bottom="66" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="ComboBox" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Edit" Key="{65C850E1-0F4C-49AA-8ADD-4380F8B20D38}">
+																						<Image FileName="-1463083328" Left="139" Top="44" Right="686" Bottom="59" />
+																						<TypeInfo Item0="{837D8C48-02BD-4973-99BA-B5A6605187BF}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="Edit" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -3757,9 +4020,13 @@
 						<Child Name="ExpanderCalibrationInformation" Owner="{37CFF01D-18E2-4BBF-BE2B-EA1E06A185A9}" />
 						<Child Name="ExpanderAssayLotInformation" Owner="{4733CCA0-751E-4D18-8A29-A3128975AA49}" />
 						<Child Name="znotesView1" Owner="{25897208-D9F2-4502-B062-54D58FEB4479}" />
-						<Child Name="ExpanderWarningErrors" Owner="{710F16BB-31AA-41F0-BC54-C1EA3271AB03}" />
+						<Child Name="ExpanderWarningErrors" Owner="{710F16BB-31AA-41F0-BC54-C1EA3271AB03}">
+							<Child Name="Border" Owner="{14F03AED-DA80-4BD2-BAC1-DB8154CC1489}" />
+						</Child>
 					</Child>
-					<Child Name="CurveData" Owner="{1DA70CD3-BA06-4555-901A-92FE392A3324}" />
+					<Child Name="CurveData" Owner="{1DA70CD3-BA06-4555-901A-92FE392A3324}">
+						<Child Name="ztreeListView1" Owner="{FF85B360-7772-4C22-A742-4ED2675E91D9}" />
+					</Child>
 					<Child Name="PlatesViewScrollViewer" Owner="{116BAC5E-44A6-4A53-AC7D-04129B4F7E32}">
 						<Child Name="ItemsControl" Owner="{8CC8E521-9A07-4963-8C37-B0DA17909E2C}">
 							<Child Name="wellplate" Owner="{A2A28DA4-742B-41D9-8C3B-7E6BF5EC50F4}">
@@ -3781,6 +4048,8 @@
 					<Child Name="Btn_All_Sample" Owner="{D17ED9B1-C0EE-42BB-8EDC-EA78B38E1CAB}" />
 					<Child Name="Btn_All_DF" Owner="{CE779F93-DA6F-43AF-AF92-A7819EF88067}" />
 					<Child Name="WellAssignmentsView" Owner="{804F6A57-C39E-4164-83F3-65DA8BA5504C}" />
+					<Child Name="ZoomSlider" Owner="{66AA2AF8-3929-4B52-B4EC-683AD651B241}" />
+					<Child Name="Grid" Owner="{636756B5-CED8-4682-BEFE-F8BF200A29F8}" />
 				</Child>
 				<Child Name="ToggleShareView" Owner="{0530BF79-CF96-4D9F-8859-EF29C98E5E71}" />
 				<Child Name="ExpandingButton" Owner="{1556DDC6-352D-4DAB-BEAF-9D30230F2D99}" />
@@ -3789,7 +4058,8 @@
 				<Child Name="MaxButtonOk" Owner="{05D87D1B-44BE-4BAC-91BA-8553AFE9B304}" />
 				<Child Name="MainViewRunCtr" Owner="{9E93204F-3F14-442B-8AF5-B2D19F33882B}">
 					<Child Name="ButtonCancel" Owner="{BE06972F-72CA-4B09-8B59-D9BFC4666CE5}" />
-					<Child Name="Version" Owner="{CBB99E71-5A9B-45F6-88B0-54B2B6079776}" />
+					<Child Name="UserMessageBox" Owner="{B1994280-7BEF-4E1F-8571-7924AAB934EA}" />
+					<Child Name="Version" Owner="{69045B66-9DD3-4249-BB8D-FC5E81EA66E8}" />
 				</Child>
 			</Child>
 			<Child Name="dlgOpen" Owner="{7630920E-D48B-494B-8475-3D30FFDAEA0C}">
@@ -3804,7 +4074,18 @@
 									<Child Name="FLEX_csv" Owner="{A0F496F6-CAD9-44E4-824A-787BAFCFF76E}">
 										<Child Name="Name" Owner="{418B4727-C636-4CAD-B6A5-5AD5B0961554}" />
 									</Child>
+									<Child Name="HMHMAG_with_Controls_csv" Owner="{118F9818-0DDA-41C5-A004-79596378DAFB}">
+										<Child Name="Name" Owner="{CADCD61F-D8E9-4BE2-9451-EC17BDC82A3E}" />
+									</Child>
+									<Child Name="Plate_2_Panel_1_Acquisition_1_PlateRunResults_csv" Owner="{7F869A86-1BEE-4325-8EAA-EE55508F96B1}">
+										<Child Name="Name" Owner="{9D18CEC4-2439-485B-8C6A-08EE31C44561}" />
+									</Child>
 								</Child>
+							</Child>
+						</Child>
+						<Child Name="CtrlNotifySink2" Owner="{CF7DAB97-770F-4A13-98E2-8CB7E867A1B2}">
+							<Child Name="NamespaceTreeControl" Owner="{BF342F6D-2874-40E0-A8E8-14D689B70255}">
+								<Child Name="tvNamespaceTreeControl" Owner="{FAFAADA8-4322-4DC4-9E82-0182D9CDCAEE}" />
 							</Child>
 						</Child>
 					</Child>
@@ -3815,6 +4096,23 @@
 					</Child>
 				</Child>
 				<Child Name="btnOpen" Owner="{4D684A4B-3E92-4AED-A2C6-5AC8DD393E46}" />
+				<Child Name="btnCancel" Owner="{6DB6FEB3-B7F8-436D-996C-E35406A1FDFC}" />
+				<Child Name="WorkerW" Owner="{1884A73E-4DBE-4292-952A-AE5CF5D103AB}">
+					<Child Name="ReBarWindow32" Owner="{9CCF3A2B-6495-4703-BA46-863ABAD1A4EA}">
+						<Child Name="AddressBandRoot" Owner="{89F01F93-78F2-47EA-89BB-C967034370A3}">
+							<Child Name="progress" Owner="{CB7E9148-BB52-4C9A-A4B4-7EE884F0821E}">
+								<Child Name="BreadcrumbParent" Owner="{71015579-8529-486C-AB49-CC41E45F6DDC}">
+									<Child Name="toolbar" Owner="{84B7617E-779C-4DDF-861E-F5373945B37E}" />
+								</Child>
+								<Child Name="comboBox" Owner="{06F09A19-7E35-4F33-ABC6-1E98CC48C077}">
+									<Child Name="ComboBox" Owner="{183BC1D9-2EDA-450D-B859-3A076962DBB2}">
+										<Child Name="Edit" Owner="{65C850E1-0F4C-49AA-8ADD-4380F8B20D38}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="HwndSource_PopupRoot" Owner="{7C951B31-6E2D-4CF5-BD5A-A314F8D917E3}">
 				<Child Name="PopupRoot" Owner="{9E366A8C-5DF4-463A-8FA2-F2C775903778}">

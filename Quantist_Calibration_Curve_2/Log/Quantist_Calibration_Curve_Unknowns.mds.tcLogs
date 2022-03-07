@@ -30,6 +30,15 @@
 				<Prp name="relpath" type="S" value="2_7_2022_8_40 AM_09_218\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44607.4832669907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B3D49DD3-3749-4897-94D8-57C07A542B7C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Verification_5PL_Unknowns\Verify_5PL_Unknowns]"/>
+				<Prp name="relpath" type="S" value="2_15_2022_11_35 AM_54_268\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

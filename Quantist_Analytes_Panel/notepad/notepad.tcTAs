@@ -19,10 +19,10 @@
 		<child key="{C359E999-CEA3-4D42-B742-CD4F5AB0A8CD}">
 			<config nodeName="Quantist" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="E:\0.8.0.0-x64\" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="E:\0.8.0.0-x64\" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="E:\0.8.0.0-x64\" />
-					<param name="Simple" fileName="Quantist.exe" filePath="E:\0.8.0.0-x64\" parameters="" workFolder="E:\0.8.0.0-x64\" />
+					<param name="RunAs" parameters="" workFolder="E:\0.9.0.0-x64\" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="E:\0.9.0.0-x64\" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="E:\0.9.0.0-x64\" />
+					<param name="Simple" fileName="Quantist.exe" filePath="E:\0.9.0.0-x64\" parameters="" workFolder="E:\0.9.0.0-x64\" />
 				</runModeParams>
 			</config>
 			<testData />

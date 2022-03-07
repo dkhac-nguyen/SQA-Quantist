@@ -24,6 +24,11 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="SQA_1160_Main_Menu" key="{5EFF7690-AAD9-486E-8B2D-B122BFB414C5}" group="False" parallel="False" enabled="True" testMoniker="{669BEA10-452A-418E-9D84-839D812FCA17}Main_Menu" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 					<testItem name="SQA_1210_CsvFile_CRC_Calculator" key="{7B8DAE9C-1EA1-4123-93A0-B8DA0C47DB88}" group="False" parallel="False" enabled="True" testMoniker="{0C5B49A6-5029-4431-A37B-138BF9CBBCA1}CRC_Calculator" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
@@ -83,7 +88,7 @@
 		</data>
 	</variables>
 	<settings key="{CDDA754E-C2CC-49B6-9AB3-9789A3CA0E6B}">
-		<settingsVersion value="15.30" />
+		<settingsVersion value="15.31" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -664,8 +669,8 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="Zephyr for Jira Server" />
-				<row val0="Zephyr for Jira Cloud" />
+				<row val0="Zephyr Squad Server" />
+				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
 		<setting name="ZFJ_JiraLogin" type="5" value="" />

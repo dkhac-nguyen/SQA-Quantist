@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="SingleAnalyte_CurvePlot" key="{12018905-221C-492D-9CE8-B31128317E7F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="SingleAnalyte_CurvePlot" ID="{12018905-221C-492D-9CE8-B31128317E7F}" FileName="Regions\SingleAnalyte_CurvePlot.png" Update="False" />
+		</child>
+		<child name="SingleAnalyte_CurveData" key="{1598B760-16A7-4857-863B-B5FCDA9683FD}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="SingleAnalyte_CurveData" ID="{1598B760-16A7-4857-863B-B5FCDA9683FD}" FileName="Regions\SingleAnalyte_CurveData.png" Update="False" />
+		</child>
+		<child name="SingleAnalyte_DataGrid_top" key="{20061515-2E95-4DCF-95D1-D8A75ACF6CC3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="SingleAnalyte_DataGrid_top" ID="{20061515-2E95-4DCF-95D1-D8A75ACF6CC3}" FileName="Regions\SingleAnalyte_DataGrid_top.png" Update="False" />
+		</child>
+		<child name="SingleAnalyte_DataGrid_bottom" key="{4528EEBD-4603-417F-BAD4-6720BF59B7C4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="SingleAnalyte_DataGrid_bottom" ID="{4528EEBD-4603-417F-BAD4-6720BF59B7C4}" FileName="Regions\SingleAnalyte_DataGrid_bottom.png" Update="False" />
+		</child>
+		<child name="Mod_metadata_warningErrors" key="{677DDB1A-69C3-426F-84B5-C2A52681F47F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Mod_metadata_warningErrors" ID="{677DDB1A-69C3-426F-84B5-C2A52681F47F}" FileName="Regions\Mod_metadata_warningErrors.png" Update="False" />
+		</child>
+		<child name="Mod_metadata_ExpanderAssayLotInformation" key="{18177CBF-D19E-43C4-A0B6-211CB8DB218A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Mod_metadata_ExpanderAssayLotInformation" ID="{18177CBF-D19E-43C4-A0B6-211CB8DB218A}" FileName="Regions\Mod_metadata_ExpanderAssayLotInformation.png" Update="False" />
+		</child>
+		<child name="Mod_metadata_ExpanderCalibrationInformation" key="{6FBE6D33-A124-47F3-8FD8-D81A168DBBFE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Mod_metadata_ExpanderCalibrationInformation" ID="{6FBE6D33-A124-47F3-8FD8-D81A168DBBFE}" FileName="Regions\Mod_metadata_ExpanderCalibrationInformation.png" Update="False" />
+		</child>
+		<child name="Mod_metadata_ExpanderBatchInformation" key="{7EBC7D6F-BCE8-4E24-8762-988797851CF9}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Mod_metadata_ExpanderBatchInformation" ID="{7EBC7D6F-BCE8-4E24-8762-988797851CF9}" FileName="Regions\Mod_metadata_ExpanderBatchInformation.png" Update="False" />
+		</child>
+		<child name="Mod_metadata_ExpanderSystemFileInformation" key="{8F0440F0-470D-423A-88B3-29522FCD1847}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Mod_metadata_ExpanderSystemFileInformation" ID="{8F0440F0-470D-423A-88B3-29522FCD1847}" FileName="Regions\Mod_metadata_ExpanderSystemFileInformation.png" Update="False" />
+		</child>
+	</children>
+</Root>
